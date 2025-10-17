@@ -1,0 +1,13 @@
+method,dataset,category,seed,noise,run_id,Image-AUROC,Pixel-AUROC,params(M),FLOPs(G),latency(ms/img),gpu_mem(MB)
+DDAD,visa,candle,0,0.0,20251015-105657,,,32.952707,N/A,N/A,N/A
+DDAD,visa,capsules,0,0.0,20251015-105808,,,32.952707,N/A,N/A,N/A
+DDAD,visa,cashew,0,0.0,20251015-105909,,,32.952707,N/A,N/A,N/A
+DDAD,visa,chewinggum,0,0.0,20251015-110008,,,32.952707,N/A,N/A,N/A
+DDAD,visa,fryum,0,0.0,20251015-110107,,,32.952707,N/A,N/A,N/A
+DDAD,visa,macaroni1,0,0.0,20251015-110255,,,32.952707,N/A,N/A,N/A
+DDAD,visa,macaroni2,0,0.0,20251015-110442,,,32.952707,N/A,N/A,N/A
+DDAD,visa,pcb1,0,0.0,20251015-110631,,,32.952707,N/A,N/A,N/A
+DDAD,visa,pcb2,0,0.0,20251015-110822,,,32.952707,N/A,N/A,N/A
+DDAD,visa,pcb3,0,0.0,20251015-111009,,,32.952707,N/A,N/A,N/A
+DDAD,visa,pcb4,0,0.0,20251015-111159,,,32.952707,N/A,N/A,N/A
+DDAD,visa,pipe_fryum,0,0.0,20251015-111258,,,32.952707,N/A,N/A,N/A

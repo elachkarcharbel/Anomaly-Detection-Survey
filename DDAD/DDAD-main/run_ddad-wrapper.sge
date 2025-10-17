@@ -1,0 +1,9 @@
+#!/bin/bash -l                                                                                                                      
+#$ -q volta.q                                                                                                                       
+#$ -l gpu=1 ## adapter selon besoin                                                                                            
+#$ -l dgx=1      
+#$ -l h_vmem=200G   
+#$ -N ddad-wrapper                                                                                                
+conda activate $WORK/conda-env
+
+python ddad_wrapper.py --dataset mvtec --seed 0 --output_dir ./results/ddad

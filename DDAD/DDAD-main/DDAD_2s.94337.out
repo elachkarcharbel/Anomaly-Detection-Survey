@@ -1,0 +1,243 @@
+
+=== Measuring model efficiency (once) ===
+✅ Efficiency: {'params(M)': 32.952707, 'FLOPs(G)': 'N/A', 'latency(ms/img)': 'N/A', 'gpu_mem(MB)': 'N/A'}
+
+=== Processing category: bottle ===
+ → Found checkpoint 2000.pth for bottle, skipping training.
+Evaluating bottle ...
+Looking for training images in: datasets/MVTec/bottle/train/good
+Found 83 images.
+Looking for training images in: datasets/MVTec/bottle/train/good
+Found 209 images.
+  No DA checkpoint found for bottle, skipping domain adaptation.
+AUROC: (98.3,98.4)
+/Work/Users/celachkar/DDAD-main/DDAD-main/metrics.py:96: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df = pd.concat([df, pd.DataFrame({"pro": mean(pros), "fpr": fpr, "threshold": th}, index=[0])], ignore_index=True)
+PRO: 91.2
+/Work/Users/celachkar/DDAD-main/DDAD-main/metrics.py:96: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df = pd.concat([df, pd.DataFrame({"pro": mean(pros), "fpr": fpr, "threshold": th}, index=[0])], ignore_index=True)
+  Saved bottle results → ./results/ddad/results_2s.csv
+
+=== Processing category: cable ===
+ → Found checkpoint 2000.pth for cable, skipping training.
+Evaluating cable ...
+Looking for training images in: datasets/MVTec/cable/train/good
+Found 150 images.
+Looking for training images in: datasets/MVTec/cable/train/good
+Found 224 images.
+  No DA checkpoint found for cable, skipping domain adaptation.
+AUROC: (95.3,97.4)
+/Work/Users/celachkar/DDAD-main/DDAD-main/metrics.py:96: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df = pd.concat([df, pd.DataFrame({"pro": mean(pros), "fpr": fpr, "threshold": th}, index=[0])], ignore_index=True)
+PRO: 82.7
+/Work/Users/celachkar/DDAD-main/DDAD-main/metrics.py:96: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df = pd.concat([df, pd.DataFrame({"pro": mean(pros), "fpr": fpr, "threshold": th}, index=[0])], ignore_index=True)
+  Saved cable results → ./results/ddad/results_2s.csv
+
+=== Processing category: capsule ===
+ → Found checkpoint 2000.pth for capsule, skipping training.
+Evaluating capsule ...
+Looking for training images in: datasets/MVTec/capsule/train/good
+Found 132 images.
+Looking for training images in: datasets/MVTec/capsule/train/good
+Found 219 images.
+  No DA checkpoint found for capsule, skipping domain adaptation.
+AUROC: (76.2,88.6)
+/Work/Users/celachkar/DDAD-main/DDAD-main/metrics.py:96: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df = pd.concat([df, pd.DataFrame({"pro": mean(pros), "fpr": fpr, "threshold": th}, index=[0])], ignore_index=True)
+PRO: 71.6
+/Work/Users/celachkar/DDAD-main/DDAD-main/metrics.py:96: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df = pd.concat([df, pd.DataFrame({"pro": mean(pros), "fpr": fpr, "threshold": th}, index=[0])], ignore_index=True)
+  Saved capsule results → ./results/ddad/results_2s.csv
+
+=== Processing category: carpet ===
+ → Found checkpoint 2000.pth for carpet, skipping training.
+Evaluating carpet ...
+Looking for training images in: datasets/MVTec/carpet/train/good
+Found 117 images.
+Looking for training images in: datasets/MVTec/carpet/train/good
+Found 280 images.
+  No DA checkpoint found for carpet, skipping domain adaptation.
+AUROC: (87.0,92.1)
+/Work/Users/celachkar/DDAD-main/DDAD-main/metrics.py:96: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df = pd.concat([df, pd.DataFrame({"pro": mean(pros), "fpr": fpr, "threshold": th}, index=[0])], ignore_index=True)
+PRO: 75.9
+/Work/Users/celachkar/DDAD-main/DDAD-main/metrics.py:96: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df = pd.concat([df, pd.DataFrame({"pro": mean(pros), "fpr": fpr, "threshold": th}, index=[0])], ignore_index=True)
+  Saved carpet results → ./results/ddad/results_2s.csv
+
+=== Processing category: grid ===
+ → Found checkpoint 2000.pth for grid, skipping training.
+Evaluating grid ...
+Looking for training images in: datasets/MVTec/grid/train/good
+Found 78 images.
+Looking for training images in: datasets/MVTec/grid/train/good
+Found 264 images.
+  No DA checkpoint found for grid, skipping domain adaptation.
+AUROC: (100.0,98.7)
+/Work/Users/celachkar/DDAD-main/DDAD-main/metrics.py:96: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df = pd.concat([df, pd.DataFrame({"pro": mean(pros), "fpr": fpr, "threshold": th}, index=[0])], ignore_index=True)
+PRO: 94.5
+/Work/Users/celachkar/DDAD-main/DDAD-main/metrics.py:96: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df = pd.concat([df, pd.DataFrame({"pro": mean(pros), "fpr": fpr, "threshold": th}, index=[0])], ignore_index=True)
+  Saved grid results → ./results/ddad/results_2s.csv
+
+=== Processing category: hazelnut ===
+ → Found checkpoint 2000.pth for hazelnut, skipping training.
+Evaluating hazelnut ...
+Looking for training images in: datasets/MVTec/hazelnut/train/good
+Found 110 images.
+Looking for training images in: datasets/MVTec/hazelnut/train/good
+Found 391 images.
+  No DA checkpoint found for hazelnut, skipping domain adaptation.
+AUROC: (82.4,95.1)
+/Work/Users/celachkar/DDAD-main/DDAD-main/metrics.py:96: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df = pd.concat([df, pd.DataFrame({"pro": mean(pros), "fpr": fpr, "threshold": th}, index=[0])], ignore_index=True)
+PRO: 79.9
+/Work/Users/celachkar/DDAD-main/DDAD-main/metrics.py:96: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df = pd.concat([df, pd.DataFrame({"pro": mean(pros), "fpr": fpr, "threshold": th}, index=[0])], ignore_index=True)
+  Saved hazelnut results → ./results/ddad/results_2s.csv
+
+=== Processing category: leather ===
+ → Found checkpoint 2000.pth for leather, skipping training.
+Evaluating leather ...
+Looking for training images in: datasets/MVTec/leather/train/good
+Found 124 images.
+Looking for training images in: datasets/MVTec/leather/train/good
+Found 245 images.
+  No DA checkpoint found for leather, skipping domain adaptation.
+AUROC: (100.0,99.2)
+/Work/Users/celachkar/DDAD-main/DDAD-main/metrics.py:96: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df = pd.concat([df, pd.DataFrame({"pro": mean(pros), "fpr": fpr, "threshold": th}, index=[0])], ignore_index=True)
+PRO: 98.3
+/Work/Users/celachkar/DDAD-main/DDAD-main/metrics.py:96: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df = pd.concat([df, pd.DataFrame({"pro": mean(pros), "fpr": fpr, "threshold": th}, index=[0])], ignore_index=True)
+  Saved leather results → ./results/ddad/results_2s.csv
+
+=== Processing category: metal_nut ===
+ → Found checkpoint 2000.pth for metal_nut, skipping training.
+Evaluating metal_nut ...
+Looking for training images in: datasets/MVTec/metal_nut/train/good
+Found 115 images.
+Looking for training images in: datasets/MVTec/metal_nut/train/good
+Found 220 images.
+  No DA checkpoint found for metal_nut, skipping domain adaptation.
+AUROC: (87.4,96.2)
+/Work/Users/celachkar/DDAD-main/DDAD-main/metrics.py:96: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df = pd.concat([df, pd.DataFrame({"pro": mean(pros), "fpr": fpr, "threshold": th}, index=[0])], ignore_index=True)
+PRO: 78.0
+/Work/Users/celachkar/DDAD-main/DDAD-main/metrics.py:96: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df = pd.concat([df, pd.DataFrame({"pro": mean(pros), "fpr": fpr, "threshold": th}, index=[0])], ignore_index=True)
+  Saved metal_nut results → ./results/ddad/results_2s.csv
+
+=== Processing category: pill ===
+ → Found checkpoint 2000.pth for pill, skipping training.
+Evaluating pill ...
+Looking for training images in: datasets/MVTec/pill/train/good
+Found 167 images.
+Looking for training images in: datasets/MVTec/pill/train/good
+Found 267 images.
+  No DA checkpoint found for pill, skipping domain adaptation.
+AUROC: (77.4,96.1)
+/Work/Users/celachkar/DDAD-main/DDAD-main/metrics.py:96: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df = pd.concat([df, pd.DataFrame({"pro": mean(pros), "fpr": fpr, "threshold": th}, index=[0])], ignore_index=True)
+PRO: 74.0
+/Work/Users/celachkar/DDAD-main/DDAD-main/metrics.py:96: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df = pd.concat([df, pd.DataFrame({"pro": mean(pros), "fpr": fpr, "threshold": th}, index=[0])], ignore_index=True)
+  Saved pill results → ./results/ddad/results_2s.csv
+
+=== Processing category: screw ===
+ → Found checkpoint 2000.pth for screw, skipping training.
+Evaluating screw ...
+Looking for training images in: datasets/MVTec/screw/train/good
+Found 160 images.
+Looking for training images in: datasets/MVTec/screw/train/good
+Found 320 images.
+  No DA checkpoint found for screw, skipping domain adaptation.
+AUROC: (64.5,81.5)
+/Work/Users/celachkar/DDAD-main/DDAD-main/metrics.py:96: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df = pd.concat([df, pd.DataFrame({"pro": mean(pros), "fpr": fpr, "threshold": th}, index=[0])], ignore_index=True)
+PRO: 47.9
+/Work/Users/celachkar/DDAD-main/DDAD-main/metrics.py:96: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df = pd.concat([df, pd.DataFrame({"pro": mean(pros), "fpr": fpr, "threshold": th}, index=[0])], ignore_index=True)
+  Saved screw results → ./results/ddad/results_2s.csv
+
+=== Processing category: tile ===
+ → Found checkpoint 2000.pth for tile, skipping training.
+Evaluating tile ...
+Looking for training images in: datasets/MVTec/tile/train/good
+Found 117 images.
+Looking for training images in: datasets/MVTec/tile/train/good
+Found 230 images.
+  No DA checkpoint found for tile, skipping domain adaptation.
+AUROC: (100.0,98.0)
+/Work/Users/celachkar/DDAD-main/DDAD-main/metrics.py:96: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df = pd.concat([df, pd.DataFrame({"pro": mean(pros), "fpr": fpr, "threshold": th}, index=[0])], ignore_index=True)
+PRO: 94.2
+/Work/Users/celachkar/DDAD-main/DDAD-main/metrics.py:96: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df = pd.concat([df, pd.DataFrame({"pro": mean(pros), "fpr": fpr, "threshold": th}, index=[0])], ignore_index=True)
+  Saved tile results → ./results/ddad/results_2s.csv
+
+=== Processing category: toothbrush ===
+ → Found checkpoint 2000.pth for toothbrush, skipping training.
+Evaluating toothbrush ...
+Looking for training images in: datasets/MVTec/toothbrush/train/good
+Found 42 images.
+Looking for training images in: datasets/MVTec/toothbrush/train/good
+Found 60 images.
+  No DA checkpoint found for toothbrush, skipping domain adaptation.
+AUROC: (79.7,96.7)
+/Work/Users/celachkar/DDAD-main/DDAD-main/metrics.py:96: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df = pd.concat([df, pd.DataFrame({"pro": mean(pros), "fpr": fpr, "threshold": th}, index=[0])], ignore_index=True)
+PRO: 85.4
+/Work/Users/celachkar/DDAD-main/DDAD-main/metrics.py:96: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df = pd.concat([df, pd.DataFrame({"pro": mean(pros), "fpr": fpr, "threshold": th}, index=[0])], ignore_index=True)
+  Saved toothbrush results → ./results/ddad/results_2s.csv
+
+=== Processing category: transistor ===
+ → Found checkpoint 2000.pth for transistor, skipping training.
+Evaluating transistor ...
+Looking for training images in: datasets/MVTec/transistor/train/good
+Found 100 images.
+Looking for training images in: datasets/MVTec/transistor/train/good
+Found 213 images.
+  No DA checkpoint found for transistor, skipping domain adaptation.
+AUROC: (98.0,90.6)
+/Work/Users/celachkar/DDAD-main/DDAD-main/metrics.py:96: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df = pd.concat([df, pd.DataFrame({"pro": mean(pros), "fpr": fpr, "threshold": th}, index=[0])], ignore_index=True)
+PRO: 80.7
+/Work/Users/celachkar/DDAD-main/DDAD-main/metrics.py:96: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df = pd.concat([df, pd.DataFrame({"pro": mean(pros), "fpr": fpr, "threshold": th}, index=[0])], ignore_index=True)
+  Saved transistor results → ./results/ddad/results_2s.csv
+
+=== Processing category: wood ===
+ → Found checkpoint 2000.pth for wood, skipping training.
+Evaluating wood ...
+Looking for training images in: datasets/MVTec/wood/train/good
+Found 79 images.
+Looking for training images in: datasets/MVTec/wood/train/good
+Found 247 images.
+  No DA checkpoint found for wood, skipping domain adaptation.
+AUROC: (98.3,95.6)
+/Work/Users/celachkar/DDAD-main/DDAD-main/metrics.py:96: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df = pd.concat([df, pd.DataFrame({"pro": mean(pros), "fpr": fpr, "threshold": th}, index=[0])], ignore_index=True)
+PRO: 85.9
+/Work/Users/celachkar/DDAD-main/DDAD-main/metrics.py:96: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df = pd.concat([df, pd.DataFrame({"pro": mean(pros), "fpr": fpr, "threshold": th}, index=[0])], ignore_index=True)
+  Saved wood results → ./results/ddad/results_2s.csv
+
+=== Processing category: zipper ===
+ → Found checkpoint 2000.pth for zipper, skipping training.
+Evaluating zipper ...
+Looking for training images in: datasets/MVTec/zipper/train/good
+Found 151 images.
+Looking for training images in: datasets/MVTec/zipper/train/good
+Found 240 images.
+  No DA checkpoint found for zipper, skipping domain adaptation.
+AUROC: (98.7,97.9)
+/Work/Users/celachkar/DDAD-main/DDAD-main/metrics.py:96: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df = pd.concat([df, pd.DataFrame({"pro": mean(pros), "fpr": fpr, "threshold": th}, index=[0])], ignore_index=True)
+PRO: 92.4
+/Work/Users/celachkar/DDAD-main/DDAD-main/metrics.py:96: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df = pd.concat([df, pd.DataFrame({"pro": mean(pros), "fpr": fpr, "threshold": th}, index=[0])], ignore_index=True)
+  Saved zipper results → ./results/ddad/results_2s.csv

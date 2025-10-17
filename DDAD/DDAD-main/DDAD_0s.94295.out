@@ -1,0 +1,653 @@
+
+=== Measuring model efficiency (once) ===
+✅ Efficiency: {'params(M)': 32.952707, 'FLOPs(G)': 'N/A', 'latency(ms/img)': 'N/A', 'gpu_mem(MB)': 'N/A'}
+
+=== Processing category: bottle ===
+ → Found checkpoint 2000.pth for bottle, skipping training.
+Evaluating bottle ...
+Looking for training images in: datasets/MVTec/bottle/train/good
+Found 83 images.
+Looking for training images in: datasets/MVTec/bottle/train/good
+Found 209 images.
+  No DA checkpoint found for bottle, skipping domain adaptation.
+AUROC: (97.0,98.4)
+/Work/Users/celachkar/DDAD-main/DDAD-main/metrics.py:96: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df = pd.concat([df, pd.DataFrame({"pro": mean(pros), "fpr": fpr, "threshold": th}, index=[0])], ignore_index=True)
+PRO: 91.0
+/Work/Users/celachkar/DDAD-main/DDAD-main/metrics.py:96: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df = pd.concat([df, pd.DataFrame({"pro": mean(pros), "fpr": fpr, "threshold": th}, index=[0])], ignore_index=True)
+  Saved bottle results → ./results/ddad/results_0s.csv
+
+=== Processing category: cable ===
+ → Found checkpoint 2000.pth for cable, skipping training.
+Evaluating cable ...
+Looking for training images in: datasets/MVTec/cable/train/good
+Found 150 images.
+Looking for training images in: datasets/MVTec/cable/train/good
+Found 224 images.
+  No DA checkpoint found for cable, skipping domain adaptation.
+AUROC: (96.5,97.5)
+/Work/Users/celachkar/DDAD-main/DDAD-main/metrics.py:96: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df = pd.concat([df, pd.DataFrame({"pro": mean(pros), "fpr": fpr, "threshold": th}, index=[0])], ignore_index=True)
+PRO: 82.3
+/Work/Users/celachkar/DDAD-main/DDAD-main/metrics.py:96: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df = pd.concat([df, pd.DataFrame({"pro": mean(pros), "fpr": fpr, "threshold": th}, index=[0])], ignore_index=True)
+  Saved cable results → ./results/ddad/results_0s.csv
+
+=== Processing category: capsule ===
+ → Found checkpoint 2000.pth for capsule, skipping training.
+Evaluating capsule ...
+Looking for training images in: datasets/MVTec/capsule/train/good
+Found 132 images.
+Looking for training images in: datasets/MVTec/capsule/train/good
+Found 219 images.
+  No DA checkpoint found for capsule, skipping domain adaptation.
+AUROC: (80.0,89.1)
+/Work/Users/celachkar/DDAD-main/DDAD-main/metrics.py:96: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df = pd.concat([df, pd.DataFrame({"pro": mean(pros), "fpr": fpr, "threshold": th}, index=[0])], ignore_index=True)
+PRO: 71.4
+/Work/Users/celachkar/DDAD-main/DDAD-main/metrics.py:96: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df = pd.concat([df, pd.DataFrame({"pro": mean(pros), "fpr": fpr, "threshold": th}, index=[0])], ignore_index=True)
+  Saved capsule results → ./results/ddad/results_0s.csv
+
+=== Processing category: carpet ===
+ → Found checkpoint 2000.pth for carpet, skipping training.
+Evaluating carpet ...
+Looking for training images in: datasets/MVTec/carpet/train/good
+Found 117 images.
+Looking for training images in: datasets/MVTec/carpet/train/good
+Found 280 images.
+  No DA checkpoint found for carpet, skipping domain adaptation.
+AUROC: (85.8,92.0)
+/Work/Users/celachkar/DDAD-main/DDAD-main/metrics.py:96: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df = pd.concat([df, pd.DataFrame({"pro": mean(pros), "fpr": fpr, "threshold": th}, index=[0])], ignore_index=True)
+PRO: 75.1
+/Work/Users/celachkar/DDAD-main/DDAD-main/metrics.py:96: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df = pd.concat([df, pd.DataFrame({"pro": mean(pros), "fpr": fpr, "threshold": th}, index=[0])], ignore_index=True)
+  Saved carpet results → ./results/ddad/results_0s.csv
+
+=== Processing category: grid ===
+ → Found checkpoint 2000.pth for grid, skipping training.
+Evaluating grid ...
+Looking for training images in: datasets/MVTec/grid/train/good
+Found 78 images.
+Looking for training images in: datasets/MVTec/grid/train/good
+Found 264 images.
+  No DA checkpoint found for grid, skipping domain adaptation.
+AUROC: (100.0,98.7)
+/Work/Users/celachkar/DDAD-main/DDAD-main/metrics.py:96: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df = pd.concat([df, pd.DataFrame({"pro": mean(pros), "fpr": fpr, "threshold": th}, index=[0])], ignore_index=True)
+PRO: 94.4
+/Work/Users/celachkar/DDAD-main/DDAD-main/metrics.py:96: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df = pd.concat([df, pd.DataFrame({"pro": mean(pros), "fpr": fpr, "threshold": th}, index=[0])], ignore_index=True)
+  Saved grid results → ./results/ddad/results_0s.csv
+
+=== Processing category: hazelnut ===
+ → Found checkpoint 2000.pth for hazelnut, skipping training.
+Evaluating hazelnut ...
+Looking for training images in: datasets/MVTec/hazelnut/train/good
+Found 110 images.
+Looking for training images in: datasets/MVTec/hazelnut/train/good
+Found 391 images.
+  No DA checkpoint found for hazelnut, skipping domain adaptation.
+AUROC: (78.0,94.5)
+/Work/Users/celachkar/DDAD-main/DDAD-main/metrics.py:96: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df = pd.concat([df, pd.DataFrame({"pro": mean(pros), "fpr": fpr, "threshold": th}, index=[0])], ignore_index=True)
+PRO: 79.4
+/Work/Users/celachkar/DDAD-main/DDAD-main/metrics.py:96: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df = pd.concat([df, pd.DataFrame({"pro": mean(pros), "fpr": fpr, "threshold": th}, index=[0])], ignore_index=True)
+  Saved hazelnut results → ./results/ddad/results_0s.csv
+
+=== Processing category: leather ===
+ → Found checkpoint 2000.pth for leather, skipping training.
+Evaluating leather ...
+Looking for training images in: datasets/MVTec/leather/train/good
+Found 124 images.
+Looking for training images in: datasets/MVTec/leather/train/good
+Found 245 images.
+  No DA checkpoint found for leather, skipping domain adaptation.
+AUROC: (100.0,99.3)
+/Work/Users/celachkar/DDAD-main/DDAD-main/metrics.py:96: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df = pd.concat([df, pd.DataFrame({"pro": mean(pros), "fpr": fpr, "threshold": th}, index=[0])], ignore_index=True)
+PRO: 98.1
+/Work/Users/celachkar/DDAD-main/DDAD-main/metrics.py:96: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df = pd.concat([df, pd.DataFrame({"pro": mean(pros), "fpr": fpr, "threshold": th}, index=[0])], ignore_index=True)
+  Saved leather results → ./results/ddad/results_0s.csv
+
+=== Processing category: metal_nut ===
+ → Found checkpoint 2000.pth for metal_nut, skipping training.
+Evaluating metal_nut ...
+Looking for training images in: datasets/MVTec/metal_nut/train/good
+Found 115 images.
+Looking for training images in: datasets/MVTec/metal_nut/train/good
+Found 220 images.
+  No DA checkpoint found for metal_nut, skipping domain adaptation.
+AUROC: (88.3,96.3)
+/Work/Users/celachkar/DDAD-main/DDAD-main/metrics.py:96: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df = pd.concat([df, pd.DataFrame({"pro": mean(pros), "fpr": fpr, "threshold": th}, index=[0])], ignore_index=True)
+PRO: 79.2
+/Work/Users/celachkar/DDAD-main/DDAD-main/metrics.py:96: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df = pd.concat([df, pd.DataFrame({"pro": mean(pros), "fpr": fpr, "threshold": th}, index=[0])], ignore_index=True)
+  Saved metal_nut results → ./results/ddad/results_0s.csv
+
+=== Processing category: pill ===
+ → Found checkpoint 2000.pth for pill, skipping training.
+Evaluating pill ...
+Looking for training images in: datasets/MVTec/pill/train/good
+Found 167 images.
+Looking for training images in: datasets/MVTec/pill/train/good
+Found 267 images.
+  No DA checkpoint found for pill, skipping domain adaptation.
+AUROC: (76.6,96.1)
+/Work/Users/celachkar/DDAD-main/DDAD-main/metrics.py:96: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df = pd.concat([df, pd.DataFrame({"pro": mean(pros), "fpr": fpr, "threshold": th}, index=[0])], ignore_index=True)
+PRO: 76.4
+/Work/Users/celachkar/DDAD-main/DDAD-main/metrics.py:96: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df = pd.concat([df, pd.DataFrame({"pro": mean(pros), "fpr": fpr, "threshold": th}, index=[0])], ignore_index=True)
+  Saved pill results → ./results/ddad/results_0s.csv
+
+=== Processing category: screw ===
+ → Found checkpoint 2000.pth for screw, skipping training.
+Evaluating screw ...
+Looking for training images in: datasets/MVTec/screw/train/good
+Found 160 images.
+Looking for training images in: datasets/MVTec/screw/train/good
+Found 320 images.
+  No DA checkpoint found for screw, skipping domain adaptation.
+AUROC: (58.9,81.0)
+/Work/Users/celachkar/DDAD-main/DDAD-main/metrics.py:96: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df = pd.concat([df, pd.DataFrame({"pro": mean(pros), "fpr": fpr, "threshold": th}, index=[0])], ignore_index=True)
+PRO: 47.8
+/Work/Users/celachkar/DDAD-main/DDAD-main/metrics.py:96: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df = pd.concat([df, pd.DataFrame({"pro": mean(pros), "fpr": fpr, "threshold": th}, index=[0])], ignore_index=True)
+  Saved screw results → ./results/ddad/results_0s.csv
+
+=== Processing category: tile ===
+ → No checkpoint found for tile, training from scratch.
+Looking for training images in: datasets/MVTec/tile/train/good
+Found 230 images.
+Epoch 25 | Loss: 4202.69287109375
+Epoch 50 | Loss: 4156.2314453125
+Epoch 75 | Loss: 3533.813720703125
+Epoch 100 | Loss: 1390.2451171875
+Epoch 125 | Loss: 717.950927734375
+Epoch 150 | Loss: 1979.2303466796875
+Epoch 175 | Loss: 2783.282470703125
+Epoch 200 | Loss: 5854.146484375
+Epoch 225 | Loss: 2249.10009765625
+Epoch 250 | Loss: 1176.296630859375
+Epoch 275 | Loss: 2207.92236328125
+Epoch 300 | Loss: 1639.489501953125
+Epoch 325 | Loss: 3012.1884765625
+Epoch 350 | Loss: 3391.320556640625
+Epoch 375 | Loss: 3393.545654296875
+Epoch 400 | Loss: 6639.79736328125
+Epoch 425 | Loss: 3025.226806640625
+Epoch 450 | Loss: 1712.937255859375
+Epoch 475 | Loss: 6106.88623046875
+Epoch 500 | Loss: 7058.6708984375
+Epoch 525 | Loss: 4086.328125
+Epoch 550 | Loss: 3853.1943359375
+Epoch 575 | Loss: 1241.729736328125
+Epoch 600 | Loss: 3490.775390625
+Epoch 625 | Loss: 4217.7177734375
+Epoch 650 | Loss: 4243.26171875
+Epoch 675 | Loss: 2262.740478515625
+Epoch 700 | Loss: 2875.822509765625
+Epoch 725 | Loss: 4933.96240234375
+Epoch 750 | Loss: 3101.455322265625
+Epoch 775 | Loss: 2356.209228515625
+Epoch 800 | Loss: 5343.18994140625
+Epoch 825 | Loss: 1972.176025390625
+Epoch 850 | Loss: 2421.49169921875
+Epoch 875 | Loss: 2122.850341796875
+Epoch 900 | Loss: 4439.18896484375
+Epoch 925 | Loss: 3138.408203125
+Epoch 950 | Loss: 3131.299072265625
+Epoch 975 | Loss: 3799.304443359375
+Epoch 1000 | Loss: 2944.914306640625
+Epoch 1025 | Loss: 3905.4765625
+Epoch 1050 | Loss: 10321.2900390625
+Epoch 1075 | Loss: 4092.52099609375
+Epoch 1100 | Loss: 2953.7158203125
+Epoch 1125 | Loss: 2342.894775390625
+Epoch 1150 | Loss: 3388.15380859375
+Epoch 1175 | Loss: 4972.32763671875
+Epoch 1200 | Loss: 938.4631958007812
+Epoch 1225 | Loss: 5446.8623046875
+Epoch 1250 | Loss: 586.0361328125
+Epoch 1275 | Loss: 2456.8818359375
+Epoch 1300 | Loss: 612.297119140625
+Epoch 1325 | Loss: 1319.8427734375
+Epoch 1350 | Loss: 7293.78515625
+Epoch 1375 | Loss: 438.67108154296875
+Epoch 1400 | Loss: 1688.7877197265625
+Epoch 1425 | Loss: 3769.048828125
+Epoch 1450 | Loss: 3186.107421875
+Epoch 1475 | Loss: 3601.50244140625
+Epoch 1500 | Loss: 6056.50439453125
+Epoch 1525 | Loss: 3976.1669921875
+Epoch 1550 | Loss: 3877.380859375
+Epoch 1575 | Loss: 9344.4599609375
+Epoch 1600 | Loss: 1926.07763671875
+Epoch 1625 | Loss: 3011.087890625
+Epoch 1650 | Loss: 2396.530029296875
+Epoch 1675 | Loss: 3770.85400390625
+Epoch 1700 | Loss: 1519.640380859375
+Epoch 1725 | Loss: 3610.642333984375
+Epoch 1750 | Loss: 3382.9169921875
+Epoch 1775 | Loss: 2582.98974609375
+Epoch 1800 | Loss: 945.7166748046875
+Epoch 1825 | Loss: 1006.0794067382812
+Epoch 1850 | Loss: 5143.67431640625
+Epoch 1875 | Loss: 7344.1513671875
+Epoch 1900 | Loss: 2520.18408203125
+Epoch 1925 | Loss: 2594.2978515625
+Epoch 1950 | Loss: 3673.97021484375
+Epoch 1975 | Loss: 3032.17578125
+Epoch 2000 | Loss: 4844.6962890625
+Evaluating tile ...
+Looking for training images in: datasets/MVTec/tile/train/good
+Found 117 images.
+Looking for training images in: datasets/MVTec/tile/train/good
+Found 230 images.
+  No DA checkpoint found for tile, skipping domain adaptation.
+AUROC: (100.0,97.8)
+/Work/Users/celachkar/DDAD-main/DDAD-main/metrics.py:96: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df = pd.concat([df, pd.DataFrame({"pro": mean(pros), "fpr": fpr, "threshold": th}, index=[0])], ignore_index=True)
+PRO: 94.6
+/Work/Users/celachkar/DDAD-main/DDAD-main/metrics.py:96: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df = pd.concat([df, pd.DataFrame({"pro": mean(pros), "fpr": fpr, "threshold": th}, index=[0])], ignore_index=True)
+  Saved tile results → ./results/ddad/results_0s.csv
+
+=== Processing category: toothbrush ===
+ → No checkpoint found for toothbrush, training from scratch.
+Looking for training images in: datasets/MVTec/toothbrush/train/good
+Found 60 images.
+Epoch 25 | Loss: 4899.16455078125
+Epoch 50 | Loss: 3561.0341796875
+Epoch 75 | Loss: 3179.9462890625
+Epoch 100 | Loss: 6947.021484375
+Epoch 125 | Loss: 737.0567626953125
+Epoch 150 | Loss: 1645.8424072265625
+Epoch 175 | Loss: 1666.500244140625
+Epoch 200 | Loss: 955.5347900390625
+Epoch 225 | Loss: 1084.0347900390625
+Epoch 250 | Loss: 391.86041259765625
+Epoch 275 | Loss: 887.55126953125
+Epoch 300 | Loss: 1423.4429931640625
+Epoch 325 | Loss: 1189.6964111328125
+Epoch 350 | Loss: 2685.79833984375
+Epoch 375 | Loss: 471.4226989746094
+Epoch 400 | Loss: 299.65594482421875
+Epoch 425 | Loss: 991.3804931640625
+Epoch 450 | Loss: 455.8616027832031
+Epoch 475 | Loss: 321.67315673828125
+Epoch 500 | Loss: 745.625732421875
+Epoch 525 | Loss: 1104.134765625
+Epoch 550 | Loss: 1818.6947021484375
+Epoch 575 | Loss: 818.50927734375
+Epoch 600 | Loss: 2647.95947265625
+Epoch 625 | Loss: 462.61199951171875
+Epoch 650 | Loss: 2840.7998046875
+Epoch 675 | Loss: 763.125
+Epoch 700 | Loss: 619.3310546875
+Epoch 725 | Loss: 514.8609619140625
+Epoch 750 | Loss: 1374.41357421875
+Epoch 775 | Loss: 613.9932861328125
+Epoch 800 | Loss: 468.91107177734375
+Epoch 825 | Loss: 2012.9234619140625
+Epoch 850 | Loss: 628.3703002929688
+Epoch 875 | Loss: 278.2691345214844
+Epoch 900 | Loss: 1265.1033935546875
+Epoch 925 | Loss: 420.300048828125
+Epoch 950 | Loss: 679.4746704101562
+Epoch 975 | Loss: 179.23281860351562
+Epoch 1000 | Loss: 1164.131591796875
+Epoch 1025 | Loss: 296.211181640625
+Epoch 1050 | Loss: 484.1637878417969
+Epoch 1075 | Loss: 343.55419921875
+Epoch 1100 | Loss: 1123.5703125
+Epoch 1125 | Loss: 195.24754333496094
+Epoch 1150 | Loss: 3544.157958984375
+Epoch 1175 | Loss: 378.28936767578125
+Epoch 1200 | Loss: 1101.65673828125
+Epoch 1225 | Loss: 338.03564453125
+Epoch 1250 | Loss: 318.2295837402344
+Epoch 1275 | Loss: 397.02777099609375
+Epoch 1300 | Loss: 970.3278198242188
+Epoch 1325 | Loss: 855.4500732421875
+Epoch 1350 | Loss: 858.630859375
+Epoch 1375 | Loss: 3604.8955078125
+Epoch 1400 | Loss: 4886.9033203125
+Epoch 1425 | Loss: 633.673583984375
+Epoch 1450 | Loss: 309.740966796875
+Epoch 1475 | Loss: 602.1548461914062
+Epoch 1500 | Loss: 956.5028686523438
+Epoch 1525 | Loss: 4025.876953125
+Epoch 1550 | Loss: 231.458740234375
+Epoch 1575 | Loss: 332.27911376953125
+Epoch 1600 | Loss: 854.1519775390625
+Epoch 1625 | Loss: 387.236328125
+Epoch 1650 | Loss: 539.1790161132812
+Epoch 1675 | Loss: 944.4118041992188
+Epoch 1700 | Loss: 2371.4580078125
+Epoch 1725 | Loss: 228.23019409179688
+Epoch 1750 | Loss: 381.6349792480469
+Epoch 1775 | Loss: 297.68585205078125
+Epoch 1800 | Loss: 3815.228515625
+Epoch 1825 | Loss: 1413.09228515625
+Epoch 1850 | Loss: 164.39501953125
+Epoch 1875 | Loss: 284.49365234375
+Epoch 1900 | Loss: 158.8818359375
+Epoch 1925 | Loss: 1011.8347778320312
+Epoch 1950 | Loss: 1700.99951171875
+Epoch 1975 | Loss: 159.52780151367188
+Epoch 2000 | Loss: 291.3591003417969
+Evaluating toothbrush ...
+Looking for training images in: datasets/MVTec/toothbrush/train/good
+Found 42 images.
+Looking for training images in: datasets/MVTec/toothbrush/train/good
+Found 60 images.
+  No DA checkpoint found for toothbrush, skipping domain adaptation.
+AUROC: (84.7,95.9)
+/Work/Users/celachkar/DDAD-main/DDAD-main/metrics.py:96: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df = pd.concat([df, pd.DataFrame({"pro": mean(pros), "fpr": fpr, "threshold": th}, index=[0])], ignore_index=True)
+PRO: 81.5
+/Work/Users/celachkar/DDAD-main/DDAD-main/metrics.py:96: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df = pd.concat([df, pd.DataFrame({"pro": mean(pros), "fpr": fpr, "threshold": th}, index=[0])], ignore_index=True)
+  Saved toothbrush results → ./results/ddad/results_0s.csv
+
+=== Processing category: transistor ===
+ → No checkpoint found for transistor, training from scratch.
+Looking for training images in: datasets/MVTec/transistor/train/good
+Found 213 images.
+Epoch 25 | Loss: 1387.481201171875
+Epoch 50 | Loss: 1560.970947265625
+Epoch 75 | Loss: 989.18310546875
+Epoch 100 | Loss: 762.762939453125
+Epoch 125 | Loss: 407.66131591796875
+Epoch 150 | Loss: 485.4701843261719
+Epoch 175 | Loss: 3306.7587890625
+Epoch 200 | Loss: 1834.37451171875
+Epoch 225 | Loss: 552.1622924804688
+Epoch 250 | Loss: 562.1846923828125
+Epoch 275 | Loss: 526.3143310546875
+Epoch 300 | Loss: 198.67904663085938
+Epoch 325 | Loss: 1020.7229614257812
+Epoch 350 | Loss: 1172.0159912109375
+Epoch 375 | Loss: 1042.0980224609375
+Epoch 400 | Loss: 1947.8419189453125
+Epoch 425 | Loss: 1867.57421875
+Epoch 450 | Loss: 1138.5718994140625
+Epoch 475 | Loss: 906.2978515625
+Epoch 500 | Loss: 621.3347778320312
+Epoch 525 | Loss: 791.56689453125
+Epoch 550 | Loss: 787.3515625
+Epoch 575 | Loss: 438.1512451171875
+Epoch 600 | Loss: 195.94020080566406
+Epoch 625 | Loss: 347.71002197265625
+Epoch 650 | Loss: 132.5654296875
+Epoch 675 | Loss: 178.47311401367188
+Epoch 700 | Loss: 503.9478454589844
+Epoch 725 | Loss: 419.392578125
+Epoch 750 | Loss: 387.7746887207031
+Epoch 775 | Loss: 212.97264099121094
+Epoch 800 | Loss: 580.750732421875
+Epoch 825 | Loss: 1296.1884765625
+Epoch 850 | Loss: 213.50830078125
+Epoch 875 | Loss: 710.2174072265625
+Epoch 900 | Loss: 194.38958740234375
+Epoch 925 | Loss: 486.6211853027344
+Epoch 950 | Loss: 183.95309448242188
+Epoch 975 | Loss: 408.708740234375
+Epoch 1000 | Loss: 265.9625244140625
+Epoch 1025 | Loss: 172.71084594726562
+Epoch 1050 | Loss: 1097.0245361328125
+Epoch 1075 | Loss: 412.5977783203125
+Epoch 1100 | Loss: 416.97869873046875
+Epoch 1125 | Loss: 138.79347229003906
+Epoch 1150 | Loss: 800.2545776367188
+Epoch 1175 | Loss: 1166.395263671875
+Epoch 1200 | Loss: 1941.7510986328125
+Epoch 1225 | Loss: 718.5269775390625
+Epoch 1250 | Loss: 220.1276092529297
+Epoch 1275 | Loss: 175.4512939453125
+Epoch 1300 | Loss: 467.6943359375
+Epoch 1325 | Loss: 245.5792999267578
+Epoch 1350 | Loss: 1452.943359375
+Epoch 1375 | Loss: 551.3065185546875
+Epoch 1400 | Loss: 219.07431030273438
+Epoch 1425 | Loss: 476.1890563964844
+Epoch 1450 | Loss: 117.42019653320312
+Epoch 1475 | Loss: 213.16934204101562
+Epoch 1500 | Loss: 116.35963439941406
+Epoch 1525 | Loss: 765.0291748046875
+Epoch 1550 | Loss: 129.5508575439453
+Epoch 1575 | Loss: 970.931396484375
+Epoch 1600 | Loss: 145.56112670898438
+Epoch 1625 | Loss: 471.0089111328125
+Epoch 1650 | Loss: 756.2992553710938
+Epoch 1675 | Loss: 1055.7359619140625
+Epoch 1700 | Loss: 444.7972412109375
+Epoch 1725 | Loss: 620.907958984375
+Epoch 1750 | Loss: 165.09121704101562
+Epoch 1775 | Loss: 582.5757446289062
+Epoch 1800 | Loss: 319.51715087890625
+Epoch 1825 | Loss: 168.9148406982422
+Epoch 1850 | Loss: 2076.3193359375
+Epoch 1875 | Loss: 63.26458740234375
+Epoch 1900 | Loss: 122.25260162353516
+Epoch 1925 | Loss: 130.23828125
+Epoch 1950 | Loss: 323.7081298828125
+Epoch 1975 | Loss: 134.62806701660156
+Epoch 2000 | Loss: 545.1646728515625
+Evaluating transistor ...
+Looking for training images in: datasets/MVTec/transistor/train/good
+Found 100 images.
+Looking for training images in: datasets/MVTec/transistor/train/good
+Found 213 images.
+  No DA checkpoint found for transistor, skipping domain adaptation.
+AUROC: (98.8,90.6)
+/Work/Users/celachkar/DDAD-main/DDAD-main/metrics.py:96: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df = pd.concat([df, pd.DataFrame({"pro": mean(pros), "fpr": fpr, "threshold": th}, index=[0])], ignore_index=True)
+PRO: 81.3
+/Work/Users/celachkar/DDAD-main/DDAD-main/metrics.py:96: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df = pd.concat([df, pd.DataFrame({"pro": mean(pros), "fpr": fpr, "threshold": th}, index=[0])], ignore_index=True)
+  Saved transistor results → ./results/ddad/results_0s.csv
+
+=== Processing category: wood ===
+ → No checkpoint found for wood, training from scratch.
+Looking for training images in: datasets/MVTec/wood/train/good
+Found 247 images.
+Epoch 25 | Loss: 954.053466796875
+Epoch 50 | Loss: 1521.541015625
+Epoch 75 | Loss: 2373.86181640625
+Epoch 100 | Loss: 2855.974609375
+Epoch 125 | Loss: 2457.41796875
+Epoch 150 | Loss: 1519.06396484375
+Epoch 175 | Loss: 486.7518005371094
+Epoch 200 | Loss: 686.42626953125
+Epoch 225 | Loss: 1596.556396484375
+Epoch 250 | Loss: 1884.72998046875
+Epoch 275 | Loss: 3643.14306640625
+Epoch 300 | Loss: 803.7491455078125
+Epoch 325 | Loss: 263.50738525390625
+Epoch 350 | Loss: 914.2200927734375
+Epoch 375 | Loss: 2608.5595703125
+Epoch 400 | Loss: 177.41348266601562
+Epoch 425 | Loss: 1574.5419921875
+Epoch 450 | Loss: 737.2757568359375
+Epoch 475 | Loss: 526.3831787109375
+Epoch 500 | Loss: 1745.824462890625
+Epoch 525 | Loss: 1093.75
+Epoch 550 | Loss: 1776.37548828125
+Epoch 575 | Loss: 698.932373046875
+Epoch 600 | Loss: 1172.7779541015625
+Epoch 625 | Loss: 754.8707275390625
+Epoch 650 | Loss: 2007.205078125
+Epoch 675 | Loss: 2027.73681640625
+Epoch 700 | Loss: 528.30322265625
+Epoch 725 | Loss: 919.2672729492188
+Epoch 750 | Loss: 1147.6868896484375
+Epoch 775 | Loss: 311.26470947265625
+Epoch 800 | Loss: 274.855224609375
+Epoch 825 | Loss: 542.572998046875
+Epoch 850 | Loss: 214.3056640625
+Epoch 875 | Loss: 1745.8341064453125
+Epoch 900 | Loss: 1123.08349609375
+Epoch 925 | Loss: 1364.3453369140625
+Epoch 950 | Loss: 1340.2000732421875
+Epoch 975 | Loss: 6771.58837890625
+Epoch 1000 | Loss: 2519.991455078125
+Epoch 1025 | Loss: 600.6348266601562
+Epoch 1050 | Loss: 3241.1962890625
+Epoch 1075 | Loss: 479.2276611328125
+Epoch 1100 | Loss: 3543.555908203125
+Epoch 1125 | Loss: 217.72247314453125
+Epoch 1150 | Loss: 538.3915405273438
+Epoch 1175 | Loss: 5670.3046875
+Epoch 1200 | Loss: 2109.79052734375
+Epoch 1225 | Loss: 823.7144775390625
+Epoch 1250 | Loss: 1871.584716796875
+Epoch 1275 | Loss: 620.8603515625
+Epoch 1300 | Loss: 391.9520263671875
+Epoch 1325 | Loss: 518.8755493164062
+Epoch 1350 | Loss: 1403.178466796875
+Epoch 1375 | Loss: 1270.9349365234375
+Epoch 1400 | Loss: 606.2523193359375
+Epoch 1425 | Loss: 1049.75634765625
+Epoch 1450 | Loss: 792.4512939453125
+Epoch 1475 | Loss: 1235.43115234375
+Epoch 1500 | Loss: 609.7603759765625
+Epoch 1525 | Loss: 471.21649169921875
+Epoch 1550 | Loss: 717.645751953125
+Epoch 1575 | Loss: 1130.3955078125
+Epoch 1600 | Loss: 602.1156005859375
+Epoch 1625 | Loss: 1834.998046875
+Epoch 1650 | Loss: 2874.1669921875
+Epoch 1675 | Loss: 599.0610961914062
+Epoch 1700 | Loss: 1929.784912109375
+Epoch 1725 | Loss: 3514.915771484375
+Epoch 1750 | Loss: 314.0059814453125
+Epoch 1775 | Loss: 561.4679565429688
+Epoch 1800 | Loss: 774.8548583984375
+Epoch 1825 | Loss: 477.8873291015625
+Epoch 1850 | Loss: 1114.265380859375
+Epoch 1875 | Loss: 757.62158203125
+Epoch 1900 | Loss: 1972.526611328125
+Epoch 1925 | Loss: 270.46978759765625
+Epoch 1950 | Loss: 1418.2315673828125
+Epoch 1975 | Loss: 728.2122802734375
+Epoch 2000 | Loss: 802.1425170898438
+Evaluating wood ...
+Looking for training images in: datasets/MVTec/wood/train/good
+Found 79 images.
+Looking for training images in: datasets/MVTec/wood/train/good
+Found 247 images.
+  No DA checkpoint found for wood, skipping domain adaptation.
+AUROC: (98.7,96.4)
+/Work/Users/celachkar/DDAD-main/DDAD-main/metrics.py:96: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df = pd.concat([df, pd.DataFrame({"pro": mean(pros), "fpr": fpr, "threshold": th}, index=[0])], ignore_index=True)
+PRO: 86.6
+/Work/Users/celachkar/DDAD-main/DDAD-main/metrics.py:96: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df = pd.concat([df, pd.DataFrame({"pro": mean(pros), "fpr": fpr, "threshold": th}, index=[0])], ignore_index=True)
+  Saved wood results → ./results/ddad/results_0s.csv
+
+=== Processing category: zipper ===
+ → No checkpoint found for zipper, training from scratch.
+Looking for training images in: datasets/MVTec/zipper/train/good
+Found 240 images.
+Epoch 25 | Loss: 4362.703125
+Epoch 50 | Loss: 2731.15576171875
+Epoch 75 | Loss: 2851.175048828125
+Epoch 100 | Loss: 357.6693115234375
+Epoch 125 | Loss: 4292.68505859375
+Epoch 150 | Loss: 485.8650817871094
+Epoch 175 | Loss: 793.3875122070312
+Epoch 200 | Loss: 3001.90576171875
+Epoch 225 | Loss: 247.84239196777344
+Epoch 250 | Loss: 329.7942810058594
+Epoch 275 | Loss: 370.36285400390625
+Epoch 300 | Loss: 4533.9111328125
+Epoch 325 | Loss: 1024.3211669921875
+Epoch 350 | Loss: 1380.82470703125
+Epoch 375 | Loss: 1027.60888671875
+Epoch 400 | Loss: 286.47943115234375
+Epoch 425 | Loss: 1720.158935546875
+Epoch 450 | Loss: 669.380126953125
+Epoch 475 | Loss: 548.28076171875
+Epoch 500 | Loss: 251.43496704101562
+Epoch 525 | Loss: 347.1109619140625
+Epoch 550 | Loss: 2647.621826171875
+Epoch 575 | Loss: 3452.8564453125
+Epoch 600 | Loss: 255.78338623046875
+Epoch 625 | Loss: 991.5337524414062
+Epoch 650 | Loss: 1353.983642578125
+Epoch 675 | Loss: 1076.138671875
+Epoch 700 | Loss: 401.6357421875
+Epoch 725 | Loss: 319.9977111816406
+Epoch 750 | Loss: 904.864501953125
+Epoch 775 | Loss: 794.2710571289062
+Epoch 800 | Loss: 1856.04443359375
+Epoch 825 | Loss: 8394.2783203125
+Epoch 850 | Loss: 506.827880859375
+Epoch 875 | Loss: 813.0103759765625
+Epoch 900 | Loss: 221.8647918701172
+Epoch 925 | Loss: 458.2628479003906
+Epoch 950 | Loss: 251.28854370117188
+Epoch 975 | Loss: 1407.1019287109375
+Epoch 1000 | Loss: 1382.249267578125
+Epoch 1025 | Loss: 873.4068603515625
+Epoch 1050 | Loss: 88.4146499633789
+Epoch 1075 | Loss: 170.6458740234375
+Epoch 1100 | Loss: 792.7689819335938
+Epoch 1125 | Loss: 139.2488250732422
+Epoch 1150 | Loss: 565.471435546875
+Epoch 1175 | Loss: 720.71875
+Epoch 1200 | Loss: 172.74151611328125
+Epoch 1225 | Loss: 2422.156494140625
+Epoch 1250 | Loss: 304.2790222167969
+Epoch 1275 | Loss: 844.9679565429688
+Epoch 1300 | Loss: 2194.291259765625
+Epoch 1325 | Loss: 216.30015563964844
+Epoch 1350 | Loss: 255.29977416992188
+Epoch 1375 | Loss: 176.15155029296875
+Epoch 1400 | Loss: 1154.9571533203125
+Epoch 1425 | Loss: 227.9435577392578
+Epoch 1450 | Loss: 229.90451049804688
+Epoch 1475 | Loss: 140.73013305664062
+Epoch 1500 | Loss: 682.4984130859375
+Epoch 1525 | Loss: 827.7194213867188
+Epoch 1550 | Loss: 434.9774475097656
+Epoch 1575 | Loss: 825.2301025390625
+Epoch 1600 | Loss: 313.73773193359375
+Epoch 1625 | Loss: 335.2076721191406
+Epoch 1650 | Loss: 89.3691635131836
+Epoch 1675 | Loss: 352.2158203125
+Epoch 1700 | Loss: 117.99256896972656
+Epoch 1725 | Loss: 217.9593963623047
+Epoch 1750 | Loss: 919.7304077148438
+Epoch 1775 | Loss: 622.3591918945312
+Epoch 1800 | Loss: 297.8328857421875
+Epoch 1825 | Loss: 253.56829833984375
+Epoch 1850 | Loss: 1678.3929443359375
+Epoch 1875 | Loss: 970.626220703125
+Epoch 1900 | Loss: 886.04638671875
+Epoch 1925 | Loss: 1136.6197509765625
+Epoch 1950 | Loss: 953.466796875
+Epoch 1975 | Loss: 266.30572509765625
+Epoch 2000 | Loss: 196.74008178710938
+Evaluating zipper ...
+Looking for training images in: datasets/MVTec/zipper/train/good
+Found 151 images.
+Looking for training images in: datasets/MVTec/zipper/train/good
+Found 240 images.
+  No DA checkpoint found for zipper, skipping domain adaptation.
+AUROC: (98.0,97.7)
+/Work/Users/celachkar/DDAD-main/DDAD-main/metrics.py:96: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df = pd.concat([df, pd.DataFrame({"pro": mean(pros), "fpr": fpr, "threshold": th}, index=[0])], ignore_index=True)
+PRO: 91.8
+/Work/Users/celachkar/DDAD-main/DDAD-main/metrics.py:96: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df = pd.concat([df, pd.DataFrame({"pro": mean(pros), "fpr": fpr, "threshold": th}, index=[0])], ignore_index=True)
+  Saved zipper results → ./results/ddad/results_0s.csv

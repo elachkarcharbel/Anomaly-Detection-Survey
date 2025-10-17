@@ -1,0 +1,118 @@
+mkdir -p failed for path /Home/Users/celachkar/.config/matplotlib: [Errno 30] Read-only file system: '/Home/Users/celachkar/.config/matplotlib'
+Matplotlib created a temporary cache directory at /tmp/jobscratch/94421/matplotlib-1zk6l0di because there was an issue with the default path (/Home/Users/celachkar/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+
+=== Preparing model for efficiency measurement ===
+✅ Efficiency: {'params(M)': 32.952707, 'FLOPs(G)': 'N/A', 'latency(ms/img)': 'N/A', 'gpu_mem(MB)': 'N/A'}
+
+=== Loading MVTec checkpoint: checkpoints/MVTec/cable/2000.pth ===
+
+=== Zero-shot evaluation on VisA category: candle ===
+Looking for test images in: datasets/visa/candle/test
+Found 1100 images.
+Looking for training images in: datasets/visa/candle/train/good
+Found 1000 images.
+  No DA checkpoint found for candle, skipping domain adaptation.
+AUROC: (23.4,70.3)
+  Saved candle results → ./results/ddad/results_visa_zero_shot.csv
+
+=== Zero-shot evaluation on VisA category: capsules ===
+Looking for test images in: datasets/visa/capsules/test
+Found 702 images.
+Looking for training images in: datasets/visa/capsules/train/good
+Found 602 images.
+  No DA checkpoint found for capsules, skipping domain adaptation.
+AUROC: (48.7,68.5)
+  Saved capsules results → ./results/ddad/results_visa_zero_shot.csv
+
+=== Zero-shot evaluation on VisA category: cashew ===
+Looking for test images in: datasets/visa/cashew/test
+Found 600 images.
+Looking for training images in: datasets/visa/cashew/train/good
+Found 500 images.
+  No DA checkpoint found for cashew, skipping domain adaptation.
+AUROC: (40.6,65.6)
+  Saved cashew results → ./results/ddad/results_visa_zero_shot.csv
+
+=== Zero-shot evaluation on VisA category: chewinggum ===
+Looking for test images in: datasets/visa/chewinggum/test
+Found 603 images.
+Looking for training images in: datasets/visa/chewinggum/train/good
+Found 503 images.
+  No DA checkpoint found for chewinggum, skipping domain adaptation.
+AUROC: (47.6,74.3)
+  Saved chewinggum results → ./results/ddad/results_visa_zero_shot.csv
+
+=== Zero-shot evaluation on VisA category: fryum ===
+Looking for test images in: datasets/visa/fryum/test
+Found 600 images.
+Looking for training images in: datasets/visa/fryum/train/good
+Found 500 images.
+  No DA checkpoint found for fryum, skipping domain adaptation.
+AUROC: (62.4,83.8)
+  Saved fryum results → ./results/ddad/results_visa_zero_shot.csv
+
+=== Zero-shot evaluation on VisA category: macaroni1 ===
+Looking for test images in: datasets/visa/macaroni1/test
+Found 1100 images.
+Looking for training images in: datasets/visa/macaroni1/train/good
+Found 1000 images.
+  No DA checkpoint found for macaroni1, skipping domain adaptation.
+AUROC: (49.3,88.9)
+  Saved macaroni1 results → ./results/ddad/results_visa_zero_shot.csv
+
+=== Zero-shot evaluation on VisA category: macaroni2 ===
+Looking for test images in: datasets/visa/macaroni2/test
+Found 1100 images.
+Looking for training images in: datasets/visa/macaroni2/train/good
+Found 1000 images.
+  No DA checkpoint found for macaroni2, skipping domain adaptation.
+AUROC: (42.8,88.2)
+  Saved macaroni2 results → ./results/ddad/results_visa_zero_shot.csv
+
+=== Zero-shot evaluation on VisA category: pcb1 ===
+Looking for test images in: datasets/visa/pcb1/test
+Found 1104 images.
+Looking for training images in: datasets/visa/pcb1/train/good
+Found 1004 images.
+  No DA checkpoint found for pcb1, skipping domain adaptation.
+AUROC: (55.9,65.6)
+  Saved pcb1 results → ./results/ddad/results_visa_zero_shot.csv
+
+=== Zero-shot evaluation on VisA category: pcb2 ===
+Looking for test images in: datasets/visa/pcb2/test
+Found 1101 images.
+Looking for training images in: datasets/visa/pcb2/train/good
+Found 1001 images.
+  No DA checkpoint found for pcb2, skipping domain adaptation.
+AUROC: (39.1,63.1)
+  Saved pcb2 results → ./results/ddad/results_visa_zero_shot.csv
+
+=== Zero-shot evaluation on VisA category: pcb3 ===
+Looking for test images in: datasets/visa/pcb3/test
+Found 1106 images.
+Looking for training images in: datasets/visa/pcb3/train/good
+Found 1006 images.
+  No DA checkpoint found for pcb3, skipping domain adaptation.
+AUROC: (43.6,78.4)
+  Saved pcb3 results → ./results/ddad/results_visa_zero_shot.csv
+
+=== Zero-shot evaluation on VisA category: pcb4 ===
+Looking for test images in: datasets/visa/pcb4/test
+Found 1105 images.
+Looking for training images in: datasets/visa/pcb4/train/good
+Found 1005 images.
+  No DA checkpoint found for pcb4, skipping domain adaptation.
+AUROC: (55.4,71.4)
+  Saved pcb4 results → ./results/ddad/results_visa_zero_shot.csv
+
+=== Zero-shot evaluation on VisA category: pipe_fryum ===
+Looking for test images in: datasets/visa/pipe_fryum/test
+Found 600 images.
+Looking for training images in: datasets/visa/pipe_fryum/train/good
+Found 500 images.
+  No DA checkpoint found for pipe_fryum, skipping domain adaptation.
+AUROC: (58.6,79.4)
+  Saved pipe_fryum results → ./results/ddad/results_visa_zero_shot.csv
+
+=== Zero-shot evaluation on VisA category: split_csv ===
+⚠ Skipping split_csv, missing data folder.
