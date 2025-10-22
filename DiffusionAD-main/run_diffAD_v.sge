@@ -1,0 +1,9 @@
+#!/bin/bash -l                                                                                                                      
+#$ -q volta.q                                                                                                                       
+#$ -l gpu=1 ## adapter selon besoin                                                                                            
+#$ -l dgx=1      
+#$ -l h_vmem=200G   
+#$ -N diffAD_v                                                                                                
+conda activate $WORK/conda-env
+
+python wrapperv.py --dataset visa --seed 0 --eval_only --output_dir ./results/diffusionad

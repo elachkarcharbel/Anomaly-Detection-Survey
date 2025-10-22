@@ -1,0 +1,15 @@
+method,dataset,category,seed,noise,run_id,Image-AUROC,Pixel-AUROC
+DiffusionAD,visa,candle,0,0.0,20251022-160429,18.4,
+DiffusionAD,visa,capsules,0,0.0,20251022-160429,72.1,
+DiffusionAD,visa,cashew,0,0.0,20251022-160429,75.1,
+DiffusionAD,visa,chewinggum,0,0.0,20251022-160429,47.8,
+DiffusionAD,visa,fryum,0,0.0,20251022-160429,34.4,
+DiffusionAD,visa,macaroni1,0,0.0,20251022-160429,75.8,
+DiffusionAD,visa,macaroni2,0,0.0,20251022-160429,49.5,
+DiffusionAD,visa,pcb1,0,0.0,20251022-160429,56.89999999999999,
+DiffusionAD,visa,pcb2,0,0.0,20251022-160429,52.300000000000004,
+DiffusionAD,visa,pcb3,0,0.0,20251022-160429,49.1,
+DiffusionAD,visa,pcb4,0,0.0,20251022-160429,84.8,
+DiffusionAD,visa,pipe_fryum,0,0.0,20251022-160429,50.9,
+
+The model (trained on MVTec) can still detect that an image is anomalous overall (hence nonzero Image AUROC), but it fails to localize or segment the exact anomalous regions in VisA images — leading to an empty or invalid Pixel AUROC.

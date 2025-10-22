@@ -1,0 +1,9 @@
+#!/bin/bash -l                                                                                                                      
+#$ -q volta.q                                                                                                                       
+#$ -l gpu=1 ## adapter selon besoin                                                                                            
+#$ -l dgx=1      
+#$ -l h_vmem=200G   
+#$ -N diffAD_n                                                                                                
+conda activate $WORK/conda-env
+
+python wrappern.py --dataset mvtec --seed 0 --noise 0.1 --output_dir ./results/diffusionad --eval_only

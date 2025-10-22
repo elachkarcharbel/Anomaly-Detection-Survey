@@ -1,0 +1,16 @@
+method,dataset,category,seed,noise,run_id,Image-AUROC,Pixel-AUROC
+DiffusionAD,mvtec,carpet,0,0.1,20251022-105350,98.6,98.9
+DiffusionAD,mvtec,grid,0,0.1,20251022-105350,100.0,99.6
+DiffusionAD,mvtec,leather,0,0.1,20251022-105350,100.0,99.8
+DiffusionAD,mvtec,tile,0,0.1,20251022-105350,99.9,99.7
+DiffusionAD,mvtec,wood,0,0.1,20251022-105350,99.6,97.39999999999999
+DiffusionAD,mvtec,bottle,0,0.1,20251022-105350,98.5,98.4
+DiffusionAD,mvtec,cable,0,0.1,20251022-105350,98.5,97.3
+DiffusionAD,mvtec,capsule,0,0.1,20251022-105350,93.5,97.6
+DiffusionAD,mvtec,hazelnut,0,0.1,20251022-105350,100.0,99.6
+DiffusionAD,mvtec,metal_nut,0,0.1,20251022-105350,99.9,99.7
+DiffusionAD,mvtec,pill,0,0.1,20251022-105350,98.5,99.3
+DiffusionAD,mvtec,screw,0,0.1,20251022-105350,93.2,98.8
+DiffusionAD,mvtec,toothbrush,0,0.1,20251022-105350,100.0,98.2
+DiffusionAD,mvtec,transistor,0,0.1,20251022-105350,98.6,86.1
+DiffusionAD,mvtec,zipper,0,0.1,20251022-105350,99.9,98.6
