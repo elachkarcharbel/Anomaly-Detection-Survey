@@ -1,5 +1,4 @@
-method,dataset,category,seed,noise,run_id,Image-AUROC,Pixel-AUROC
-DiffusionAD,mvtec,carpet,1,0.0,20251005-170519,99.0,99.1
+method,dataset,category,seed,noise,run_id,Image-AUROC,Pixel-AUROC,params(M),FLOPs(G),latency(ms/img),gpu_mem(MB)
 DiffusionAD,mvtec,carpet,0,0.0,20251006-103928,98.6,98.9,131.654403,282.616496128,49.40319061279297,1390.6357421875
 DiffusionAD,mvtec,grid,0,0.0,20251006-103928,99.9,99.6,131.654403,282.616496128,49.1328239440918,1395.9482421875
 DiffusionAD,mvtec,leather,0,0.0,20251006-103928,100.0,99.8,131.654403,282.616496128,49.24464225769043,1390.1357421875
