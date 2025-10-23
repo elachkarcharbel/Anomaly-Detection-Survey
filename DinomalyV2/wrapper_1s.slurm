@@ -1,0 +1,22 @@
+#!/usr/bin/bash -l
+# Fichier submission.SBATCH
+
+#SBATCH --job-name=Dino_1s
+#SBATCH --output=%x.%J.out  ## %x=job name, %J=job id
+#SBATCH --error=%x.%J.out  ## %x=job name, %J=job id
+
+# walltime (d-hh:mm::ss) max is 8 days
+#SBATCH --time=5-00:00:00
+
+#SBATCH --partition=gpu
+#SBATCH --gres=gpu:1
+
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4G
+
+## load modules
+module load deep/pytorch-gpu/2.0.1
+
+
+## execute your program
+conda activate conda-env2 && export LD_LIBRARY_PATH=$CONDA_PREFIX/lib:$LD_LIBRARY_PATH && python dinomalyv2_wrapper_1s.py --dataset mvtec --seed 1 --output_dir ./results/dinomalyv2

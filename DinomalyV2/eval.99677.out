@@ -1,0 +1,30 @@
+/Work/Users/celachkar/DinomalyV2/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+/Work/Users/celachkar/DinomalyV2/dinov2/layers/attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+/Work/Users/celachkar/DinomalyV2/dinov2/layers/block.py:38: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+candle: Image-AUROC=0.4163, Pixel-AUROC=0.5257
+✅ Saved progress to eval_results_20251023-180431.csv
+capsules: Image-AUROC=0.2914, Pixel-AUROC=0.6290
+✅ Saved progress to eval_results_20251023-180431.csv
+cashew: Image-AUROC=0.7462, Pixel-AUROC=0.3236
+✅ Saved progress to eval_results_20251023-180431.csv
+chewinggum: Image-AUROC=0.1083, Pixel-AUROC=0.6106
+✅ Saved progress to eval_results_20251023-180431.csv
+fryum: Image-AUROC=0.5927, Pixel-AUROC=0.8552
+✅ Saved progress to eval_results_20251023-180431.csv
+macaroni1: Image-AUROC=0.3842, Pixel-AUROC=0.5846
+✅ Saved progress to eval_results_20251023-180431.csv
+macaroni2: Image-AUROC=0.4878, Pixel-AUROC=0.8013
+✅ Saved progress to eval_results_20251023-180431.csv
+pcb1: Image-AUROC=0.5142, Pixel-AUROC=0.7073
+✅ Saved progress to eval_results_20251023-180431.csv
+pcb2: Image-AUROC=0.3444, Pixel-AUROC=0.7208
+✅ Saved progress to eval_results_20251023-180431.csv
+pcb3: Image-AUROC=0.4734, Pixel-AUROC=0.7838
+✅ Saved progress to eval_results_20251023-180431.csv
+pcb4: Image-AUROC=0.4884, Pixel-AUROC=0.6755
+✅ Saved progress to eval_results_20251023-180431.csv
+pipe_fryum: Image-AUROC=0.3750, Pixel-AUROC=0.7826
+✅ Saved progress to eval_results_20251023-180431.csv

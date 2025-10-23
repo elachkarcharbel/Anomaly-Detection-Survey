@@ -1,0 +1,1356 @@
+/Work/Users/celachkar/DinomalyV2/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+/Work/Users/celachkar/DinomalyV2/dinov2/layers/attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+/Work/Users/celachkar/DinomalyV2/dinov2/layers/block.py:38: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+
+=== Running DinomalyV2 on mvtec/bottle ===
+Running: python dinomaly_mvtec_uni.py --data_path ../mvtec_anomaly_detection --save_dir ./results/dinomalyv2/checkpoints --save_name bottle_seed2_noise0.0
+/Work/Users/celachkar/DinomalyV2/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+/Work/Users/celachkar/DinomalyV2/dinov2/layers/attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+/Work/Users/celachkar/DinomalyV2/dinov2/layers/block.py:38: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+Folders found: ['hazelnut', 'grid', 'leather', 'screw', 'wood', 'zipper', 'cable', 'bottle', 'toothbrush', 'metal_nut', 'tile', 'pill', 'carpet', 'transistor', 'capsule']
+cuda:0
+train image number:3629
+iter [226/10000], loss:0.2048
+iter [452/10000], loss:0.0905
+iter [678/10000], loss:0.0739
+iter [904/10000], loss:0.0676
+iter [1130/10000], loss:0.0631
+iter [1356/10000], loss:0.0613
+iter [1582/10000], loss:0.0601
+iter [1808/10000], loss:0.0593
+iter [2034/10000], loss:0.0584
+iter [2260/10000], loss:0.0575
+iter [2486/10000], loss:0.0568
+iter [2712/10000], loss:0.0559
+iter [2938/10000], loss:0.0554
+iter [3164/10000], loss:0.0547
+iter [3390/10000], loss:0.0542
+iter [3616/10000], loss:0.0537
+iter [3842/10000], loss:0.0531
+iter [4068/10000], loss:0.0527
+iter [4294/10000], loss:0.0522
+iter [4520/10000], loss:0.0518
+iter [4746/10000], loss:0.0516
+iter [4972/10000], loss:0.0511
+hazelnut: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9944, P-AP:0.8214, P-F1:0.7675, P-AUPRO:0.9714
+grid: I-Auroc:0.9967, I-AP:0.9988, I-F1:0.9912, P-AUROC:0.9935, P-AP:0.5344, P-F1:0.5643, P-AUPRO:0.9701
+leather: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9933, P-AP:0.5364, P-F1:0.5420, P-AUPRO:0.9699
+screw: I-Auroc:0.9801, I-AP:0.9935, I-F1:0.9551, P-AUROC:0.9959, P-AP:0.5842, P-F1:0.5946, P-AUPRO:0.9817
+wood: I-Auroc:0.9991, I-AP:0.9997, I-F1:0.9917, P-AUROC:0.9753, P-AP:0.7350, P-F1:0.6891, P-AUPRO:0.9342
+zipper: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9919, P-AP:0.8043, P-F1:0.7553, P-AUPRO:0.9712
+cable: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9787, P-AP:0.6435, P-F1:0.6676, P-AUPRO:0.9331
+bottle: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9913, P-AP:0.8808, P-F1:0.8397, P-AUPRO:0.9661
+toothbrush: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9889, P-AP:0.5184, P-F1:0.6263, P-AUPRO:0.9502
+metal_nut: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9694, P-AP:0.8068, P-F1:0.8677, P-AUPRO:0.9470
+tile: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9823, P-AP:0.8059, P-F1:0.7644, P-AUPRO:0.8980
+pill: I-Auroc:0.9910, I-AP:0.9984, I-F1:0.9825, P-AUROC:0.9791, P-AP:0.7781, P-F1:0.7188, P-AUPRO:0.9732
+carpet: I-Auroc:0.9984, I-AP:0.9995, I-F1:0.9888, P-AUROC:0.9936, P-AP:0.7060, P-F1:0.7215, P-AUPRO:0.9771
+transistor: I-Auroc:0.9871, I-AP:0.9770, I-F1:0.9620, P-AUROC:0.9251, P-AP:0.5766, P-F1:0.5652, P-AUPRO:0.7474
+capsule: I-Auroc:0.9713, I-AP:0.9938, I-F1:0.9680, P-AUROC:0.9859, P-AP:0.6032, P-F1:0.6051, P-AUPRO:0.9702
+Mean: I-Auroc:0.9949, I-AP:0.9974, I-F1:0.9893, P-AUROC:0.9826, P-AP:0.6890, P-F1:0.6860, P-AUPRO:0.9440
+iter [5198/10000], loss:0.0507
+iter [5424/10000], loss:0.0504
+iter [5650/10000], loss:0.0501
+iter [5876/10000], loss:0.0497
+iter [6102/10000], loss:0.0495
+iter [6328/10000], loss:0.0492
+iter [6554/10000], loss:0.0489
+iter [6780/10000], loss:0.0487
+iter [7006/10000], loss:0.0485
+iter [7232/10000], loss:0.0483
+iter [7458/10000], loss:0.0480
+iter [7684/10000], loss:0.0479
+iter [7910/10000], loss:0.0477
+iter [8136/10000], loss:0.0475
+iter [8362/10000], loss:0.0474
+iter [8588/10000], loss:0.0473
+iter [8814/10000], loss:0.0472
+iter [9040/10000], loss:0.0470
+iter [9266/10000], loss:0.0470
+iter [9492/10000], loss:0.0469
+iter [9718/10000], loss:0.0468
+iter [9944/10000], loss:0.0468
+hazelnut: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9944, P-AP:0.8255, P-F1:0.7621, P-AUPRO:0.9694
+grid: I-Auroc:0.9975, I-AP:0.9991, I-F1:0.9912, P-AUROC:0.9935, P-AP:0.5378, P-F1:0.5650, P-AUPRO:0.9689
+leather: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9930, P-AP:0.5075, P-F1:0.5320, P-AUPRO:0.9700
+screw: I-Auroc:0.9842, I-AP:0.9949, I-F1:0.9569, P-AUROC:0.9964, P-AP:0.5946, P-F1:0.6012, P-AUPRO:0.9833
+wood: I-Auroc:0.9991, I-AP:0.9997, I-F1:0.9917, P-AUROC:0.9751, P-AP:0.7208, P-F1:0.6831, P-AUPRO:0.9354
+zipper: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9922, P-AP:0.7992, P-F1:0.7567, P-AUPRO:0.9713
+cable: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9819, P-AP:0.6633, P-F1:0.6877, P-AUPRO:0.9380
+bottle: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9913, P-AP:0.8774, P-F1:0.8405, P-AUPRO:0.9669
+toothbrush: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9888, P-AP:0.5132, P-F1:0.6263, P-AUPRO:0.9507
+metal_nut: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9686, P-AP:0.7949, P-F1:0.8657, P-AUPRO:0.9455
+tile: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9808, P-AP:0.7820, P-F1:0.7591, P-AUPRO:0.9012
+pill: I-Auroc:0.9921, I-AP:0.9986, I-F1:0.9825, P-AUROC:0.9784, P-AP:0.7593, P-F1:0.7134, P-AUPRO:0.9727
+carpet: I-Auroc:0.9984, I-AP:0.9995, I-F1:0.9888, P-AUROC:0.9933, P-AP:0.6930, P-F1:0.7152, P-AUPRO:0.9727
+transistor: I-Auroc:0.9908, I-AP:0.9835, I-F1:0.9630, P-AUROC:0.9324, P-AP:0.5935, P-F1:0.5800, P-AUPRO:0.7633
+capsule: I-Auroc:0.9809, I-AP:0.9958, I-F1:0.9725, P-AUROC:0.9871, P-AP:0.6064, P-F1:0.6059, P-AUPRO:0.9725
+Mean: I-Auroc:0.9962, I-AP:0.9981, I-F1:0.9898, P-AUROC:0.9831, P-AP:0.6846, P-F1:0.6863, P-AUPRO:0.9455
+iter [10000/10000], loss:0.0468
+✅ Saved results for bottle → ./results/dinomalyv2/results_2s.csv
+
+=== Running DinomalyV2 on mvtec/cable ===
+Running: python dinomaly_mvtec_uni.py --data_path ../mvtec_anomaly_detection --save_dir ./results/dinomalyv2/checkpoints --save_name cable_seed2_noise0.0
+/Work/Users/celachkar/DinomalyV2/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+/Work/Users/celachkar/DinomalyV2/dinov2/layers/attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+/Work/Users/celachkar/DinomalyV2/dinov2/layers/block.py:38: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+Folders found: ['hazelnut', 'grid', 'leather', 'screw', 'wood', 'zipper', 'cable', 'bottle', 'toothbrush', 'metal_nut', 'tile', 'pill', 'carpet', 'transistor', 'capsule']
+cuda:0
+train image number:3629
+iter [226/10000], loss:0.2048
+iter [452/10000], loss:0.0905
+iter [678/10000], loss:0.0739
+iter [904/10000], loss:0.0676
+iter [1130/10000], loss:0.0631
+iter [1356/10000], loss:0.0613
+iter [1582/10000], loss:0.0601
+iter [1808/10000], loss:0.0593
+iter [2034/10000], loss:0.0584
+iter [2260/10000], loss:0.0575
+iter [2486/10000], loss:0.0568
+iter [2712/10000], loss:0.0559
+iter [2938/10000], loss:0.0554
+iter [3164/10000], loss:0.0547
+iter [3390/10000], loss:0.0542
+iter [3616/10000], loss:0.0537
+iter [3842/10000], loss:0.0531
+iter [4068/10000], loss:0.0527
+iter [4294/10000], loss:0.0522
+iter [4520/10000], loss:0.0518
+iter [4746/10000], loss:0.0516
+iter [4972/10000], loss:0.0511
+hazelnut: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9944, P-AP:0.8214, P-F1:0.7675, P-AUPRO:0.9714
+grid: I-Auroc:0.9967, I-AP:0.9988, I-F1:0.9912, P-AUROC:0.9935, P-AP:0.5344, P-F1:0.5643, P-AUPRO:0.9701
+leather: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9933, P-AP:0.5364, P-F1:0.5420, P-AUPRO:0.9699
+screw: I-Auroc:0.9801, I-AP:0.9935, I-F1:0.9551, P-AUROC:0.9959, P-AP:0.5842, P-F1:0.5946, P-AUPRO:0.9817
+wood: I-Auroc:0.9991, I-AP:0.9997, I-F1:0.9917, P-AUROC:0.9753, P-AP:0.7350, P-F1:0.6891, P-AUPRO:0.9342
+zipper: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9919, P-AP:0.8043, P-F1:0.7553, P-AUPRO:0.9712
+cable: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9787, P-AP:0.6435, P-F1:0.6676, P-AUPRO:0.9331
+bottle: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9913, P-AP:0.8808, P-F1:0.8397, P-AUPRO:0.9661
+toothbrush: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9889, P-AP:0.5184, P-F1:0.6263, P-AUPRO:0.9502
+metal_nut: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9694, P-AP:0.8068, P-F1:0.8677, P-AUPRO:0.9470
+tile: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9823, P-AP:0.8059, P-F1:0.7644, P-AUPRO:0.8980
+pill: I-Auroc:0.9910, I-AP:0.9984, I-F1:0.9825, P-AUROC:0.9791, P-AP:0.7781, P-F1:0.7188, P-AUPRO:0.9732
+carpet: I-Auroc:0.9984, I-AP:0.9995, I-F1:0.9888, P-AUROC:0.9936, P-AP:0.7060, P-F1:0.7215, P-AUPRO:0.9771
+transistor: I-Auroc:0.9871, I-AP:0.9770, I-F1:0.9620, P-AUROC:0.9251, P-AP:0.5766, P-F1:0.5652, P-AUPRO:0.7474
+capsule: I-Auroc:0.9713, I-AP:0.9938, I-F1:0.9680, P-AUROC:0.9859, P-AP:0.6032, P-F1:0.6051, P-AUPRO:0.9702
+Mean: I-Auroc:0.9949, I-AP:0.9974, I-F1:0.9893, P-AUROC:0.9826, P-AP:0.6890, P-F1:0.6860, P-AUPRO:0.9440
+iter [5198/10000], loss:0.0507
+iter [5424/10000], loss:0.0504
+iter [5650/10000], loss:0.0501
+iter [5876/10000], loss:0.0497
+iter [6102/10000], loss:0.0495
+iter [6328/10000], loss:0.0492
+iter [6554/10000], loss:0.0489
+iter [6780/10000], loss:0.0487
+iter [7006/10000], loss:0.0485
+iter [7232/10000], loss:0.0483
+iter [7458/10000], loss:0.0480
+iter [7684/10000], loss:0.0479
+iter [7910/10000], loss:0.0477
+iter [8136/10000], loss:0.0475
+iter [8362/10000], loss:0.0474
+iter [8588/10000], loss:0.0473
+iter [8814/10000], loss:0.0472
+iter [9040/10000], loss:0.0470
+iter [9266/10000], loss:0.0470
+iter [9492/10000], loss:0.0469
+iter [9718/10000], loss:0.0468
+iter [9944/10000], loss:0.0468
+hazelnut: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9944, P-AP:0.8255, P-F1:0.7621, P-AUPRO:0.9694
+grid: I-Auroc:0.9975, I-AP:0.9991, I-F1:0.9912, P-AUROC:0.9935, P-AP:0.5378, P-F1:0.5650, P-AUPRO:0.9689
+leather: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9930, P-AP:0.5075, P-F1:0.5320, P-AUPRO:0.9700
+screw: I-Auroc:0.9842, I-AP:0.9949, I-F1:0.9569, P-AUROC:0.9964, P-AP:0.5946, P-F1:0.6012, P-AUPRO:0.9833
+wood: I-Auroc:0.9991, I-AP:0.9997, I-F1:0.9917, P-AUROC:0.9751, P-AP:0.7208, P-F1:0.6831, P-AUPRO:0.9354
+zipper: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9922, P-AP:0.7992, P-F1:0.7567, P-AUPRO:0.9713
+cable: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9819, P-AP:0.6633, P-F1:0.6877, P-AUPRO:0.9380
+bottle: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9913, P-AP:0.8774, P-F1:0.8405, P-AUPRO:0.9669
+toothbrush: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9888, P-AP:0.5132, P-F1:0.6263, P-AUPRO:0.9507
+metal_nut: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9686, P-AP:0.7949, P-F1:0.8657, P-AUPRO:0.9455
+tile: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9808, P-AP:0.7820, P-F1:0.7591, P-AUPRO:0.9012
+pill: I-Auroc:0.9921, I-AP:0.9986, I-F1:0.9825, P-AUROC:0.9784, P-AP:0.7593, P-F1:0.7134, P-AUPRO:0.9727
+carpet: I-Auroc:0.9984, I-AP:0.9995, I-F1:0.9888, P-AUROC:0.9933, P-AP:0.6930, P-F1:0.7152, P-AUPRO:0.9727
+transistor: I-Auroc:0.9908, I-AP:0.9835, I-F1:0.9630, P-AUROC:0.9324, P-AP:0.5935, P-F1:0.5800, P-AUPRO:0.7633
+capsule: I-Auroc:0.9809, I-AP:0.9958, I-F1:0.9725, P-AUROC:0.9871, P-AP:0.6064, P-F1:0.6059, P-AUPRO:0.9725
+Mean: I-Auroc:0.9962, I-AP:0.9981, I-F1:0.9898, P-AUROC:0.9831, P-AP:0.6846, P-F1:0.6863, P-AUPRO:0.9455
+iter [10000/10000], loss:0.0468
+✅ Saved results for cable → ./results/dinomalyv2/results_2s.csv
+
+=== Running DinomalyV2 on mvtec/capsule ===
+Running: python dinomaly_mvtec_uni.py --data_path ../mvtec_anomaly_detection --save_dir ./results/dinomalyv2/checkpoints --save_name capsule_seed2_noise0.0
+/Work/Users/celachkar/DinomalyV2/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+/Work/Users/celachkar/DinomalyV2/dinov2/layers/attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+/Work/Users/celachkar/DinomalyV2/dinov2/layers/block.py:38: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+Folders found: ['hazelnut', 'grid', 'leather', 'screw', 'wood', 'zipper', 'cable', 'bottle', 'toothbrush', 'metal_nut', 'tile', 'pill', 'carpet', 'transistor', 'capsule']
+cuda:0
+train image number:3629
+iter [226/10000], loss:0.2048
+iter [452/10000], loss:0.0905
+iter [678/10000], loss:0.0739
+iter [904/10000], loss:0.0676
+iter [1130/10000], loss:0.0631
+iter [1356/10000], loss:0.0613
+iter [1582/10000], loss:0.0601
+iter [1808/10000], loss:0.0593
+iter [2034/10000], loss:0.0584
+iter [2260/10000], loss:0.0575
+iter [2486/10000], loss:0.0568
+iter [2712/10000], loss:0.0559
+iter [2938/10000], loss:0.0554
+iter [3164/10000], loss:0.0547
+iter [3390/10000], loss:0.0542
+iter [3616/10000], loss:0.0537
+iter [3842/10000], loss:0.0531
+iter [4068/10000], loss:0.0527
+iter [4294/10000], loss:0.0522
+iter [4520/10000], loss:0.0518
+iter [4746/10000], loss:0.0516
+iter [4972/10000], loss:0.0511
+hazelnut: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9944, P-AP:0.8214, P-F1:0.7675, P-AUPRO:0.9714
+grid: I-Auroc:0.9967, I-AP:0.9988, I-F1:0.9912, P-AUROC:0.9935, P-AP:0.5344, P-F1:0.5643, P-AUPRO:0.9701
+leather: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9933, P-AP:0.5364, P-F1:0.5420, P-AUPRO:0.9699
+screw: I-Auroc:0.9801, I-AP:0.9935, I-F1:0.9551, P-AUROC:0.9959, P-AP:0.5842, P-F1:0.5946, P-AUPRO:0.9817
+wood: I-Auroc:0.9991, I-AP:0.9997, I-F1:0.9917, P-AUROC:0.9753, P-AP:0.7350, P-F1:0.6891, P-AUPRO:0.9342
+zipper: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9919, P-AP:0.8043, P-F1:0.7553, P-AUPRO:0.9712
+cable: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9787, P-AP:0.6435, P-F1:0.6676, P-AUPRO:0.9331
+bottle: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9913, P-AP:0.8808, P-F1:0.8397, P-AUPRO:0.9661
+toothbrush: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9889, P-AP:0.5184, P-F1:0.6263, P-AUPRO:0.9502
+metal_nut: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9694, P-AP:0.8068, P-F1:0.8677, P-AUPRO:0.9470
+tile: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9823, P-AP:0.8059, P-F1:0.7644, P-AUPRO:0.8980
+pill: I-Auroc:0.9910, I-AP:0.9984, I-F1:0.9825, P-AUROC:0.9791, P-AP:0.7781, P-F1:0.7188, P-AUPRO:0.9732
+carpet: I-Auroc:0.9984, I-AP:0.9995, I-F1:0.9888, P-AUROC:0.9936, P-AP:0.7060, P-F1:0.7215, P-AUPRO:0.9771
+transistor: I-Auroc:0.9871, I-AP:0.9770, I-F1:0.9620, P-AUROC:0.9251, P-AP:0.5766, P-F1:0.5652, P-AUPRO:0.7474
+capsule: I-Auroc:0.9713, I-AP:0.9938, I-F1:0.9680, P-AUROC:0.9859, P-AP:0.6032, P-F1:0.6051, P-AUPRO:0.9702
+Mean: I-Auroc:0.9949, I-AP:0.9974, I-F1:0.9893, P-AUROC:0.9826, P-AP:0.6890, P-F1:0.6860, P-AUPRO:0.9440
+iter [5198/10000], loss:0.0507
+iter [5424/10000], loss:0.0504
+iter [5650/10000], loss:0.0501
+iter [5876/10000], loss:0.0497
+iter [6102/10000], loss:0.0495
+iter [6328/10000], loss:0.0492
+iter [6554/10000], loss:0.0489
+iter [6780/10000], loss:0.0487
+iter [7006/10000], loss:0.0485
+iter [7232/10000], loss:0.0483
+iter [7458/10000], loss:0.0480
+iter [7684/10000], loss:0.0479
+iter [7910/10000], loss:0.0477
+iter [8136/10000], loss:0.0475
+iter [8362/10000], loss:0.0474
+iter [8588/10000], loss:0.0473
+iter [8814/10000], loss:0.0472
+iter [9040/10000], loss:0.0470
+iter [9266/10000], loss:0.0470
+iter [9492/10000], loss:0.0469
+iter [9718/10000], loss:0.0468
+iter [9944/10000], loss:0.0468
+hazelnut: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9944, P-AP:0.8255, P-F1:0.7621, P-AUPRO:0.9694
+grid: I-Auroc:0.9975, I-AP:0.9991, I-F1:0.9912, P-AUROC:0.9935, P-AP:0.5378, P-F1:0.5650, P-AUPRO:0.9689
+leather: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9930, P-AP:0.5075, P-F1:0.5320, P-AUPRO:0.9700
+screw: I-Auroc:0.9842, I-AP:0.9949, I-F1:0.9569, P-AUROC:0.9964, P-AP:0.5946, P-F1:0.6012, P-AUPRO:0.9833
+wood: I-Auroc:0.9991, I-AP:0.9997, I-F1:0.9917, P-AUROC:0.9751, P-AP:0.7208, P-F1:0.6831, P-AUPRO:0.9354
+zipper: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9922, P-AP:0.7992, P-F1:0.7567, P-AUPRO:0.9713
+cable: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9819, P-AP:0.6633, P-F1:0.6877, P-AUPRO:0.9380
+bottle: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9913, P-AP:0.8774, P-F1:0.8405, P-AUPRO:0.9669
+toothbrush: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9888, P-AP:0.5132, P-F1:0.6263, P-AUPRO:0.9507
+metal_nut: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9686, P-AP:0.7949, P-F1:0.8657, P-AUPRO:0.9455
+tile: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9808, P-AP:0.7820, P-F1:0.7591, P-AUPRO:0.9012
+pill: I-Auroc:0.9921, I-AP:0.9986, I-F1:0.9825, P-AUROC:0.9784, P-AP:0.7593, P-F1:0.7134, P-AUPRO:0.9727
+carpet: I-Auroc:0.9984, I-AP:0.9995, I-F1:0.9888, P-AUROC:0.9933, P-AP:0.6930, P-F1:0.7152, P-AUPRO:0.9727
+transistor: I-Auroc:0.9908, I-AP:0.9835, I-F1:0.9630, P-AUROC:0.9324, P-AP:0.5935, P-F1:0.5800, P-AUPRO:0.7633
+capsule: I-Auroc:0.9809, I-AP:0.9958, I-F1:0.9725, P-AUROC:0.9871, P-AP:0.6064, P-F1:0.6059, P-AUPRO:0.9725
+Mean: I-Auroc:0.9962, I-AP:0.9981, I-F1:0.9898, P-AUROC:0.9831, P-AP:0.6846, P-F1:0.6863, P-AUPRO:0.9455
+iter [10000/10000], loss:0.0468
+✅ Saved results for capsule → ./results/dinomalyv2/results_2s.csv
+
+=== Running DinomalyV2 on mvtec/carpet ===
+Running: python dinomaly_mvtec_uni.py --data_path ../mvtec_anomaly_detection --save_dir ./results/dinomalyv2/checkpoints --save_name carpet_seed2_noise0.0
+/Work/Users/celachkar/DinomalyV2/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+/Work/Users/celachkar/DinomalyV2/dinov2/layers/attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+/Work/Users/celachkar/DinomalyV2/dinov2/layers/block.py:38: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+Folders found: ['hazelnut', 'grid', 'leather', 'screw', 'wood', 'zipper', 'cable', 'bottle', 'toothbrush', 'metal_nut', 'tile', 'pill', 'carpet', 'transistor', 'capsule']
+cuda:0
+train image number:3629
+iter [226/10000], loss:0.2048
+iter [452/10000], loss:0.0905
+iter [678/10000], loss:0.0739
+iter [904/10000], loss:0.0676
+iter [1130/10000], loss:0.0631
+iter [1356/10000], loss:0.0613
+iter [1582/10000], loss:0.0601
+iter [1808/10000], loss:0.0593
+iter [2034/10000], loss:0.0584
+iter [2260/10000], loss:0.0575
+iter [2486/10000], loss:0.0568
+iter [2712/10000], loss:0.0559
+iter [2938/10000], loss:0.0554
+iter [3164/10000], loss:0.0547
+iter [3390/10000], loss:0.0542
+iter [3616/10000], loss:0.0537
+iter [3842/10000], loss:0.0531
+iter [4068/10000], loss:0.0527
+iter [4294/10000], loss:0.0522
+iter [4520/10000], loss:0.0518
+iter [4746/10000], loss:0.0516
+iter [4972/10000], loss:0.0511
+hazelnut: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9944, P-AP:0.8214, P-F1:0.7675, P-AUPRO:0.9714
+grid: I-Auroc:0.9967, I-AP:0.9988, I-F1:0.9912, P-AUROC:0.9935, P-AP:0.5344, P-F1:0.5643, P-AUPRO:0.9701
+leather: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9933, P-AP:0.5364, P-F1:0.5420, P-AUPRO:0.9699
+screw: I-Auroc:0.9801, I-AP:0.9935, I-F1:0.9551, P-AUROC:0.9959, P-AP:0.5842, P-F1:0.5946, P-AUPRO:0.9817
+wood: I-Auroc:0.9991, I-AP:0.9997, I-F1:0.9917, P-AUROC:0.9753, P-AP:0.7350, P-F1:0.6891, P-AUPRO:0.9342
+zipper: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9919, P-AP:0.8043, P-F1:0.7553, P-AUPRO:0.9712
+cable: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9787, P-AP:0.6435, P-F1:0.6676, P-AUPRO:0.9331
+bottle: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9913, P-AP:0.8808, P-F1:0.8397, P-AUPRO:0.9661
+toothbrush: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9889, P-AP:0.5184, P-F1:0.6263, P-AUPRO:0.9502
+metal_nut: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9694, P-AP:0.8068, P-F1:0.8677, P-AUPRO:0.9470
+tile: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9823, P-AP:0.8059, P-F1:0.7644, P-AUPRO:0.8980
+pill: I-Auroc:0.9910, I-AP:0.9984, I-F1:0.9825, P-AUROC:0.9791, P-AP:0.7781, P-F1:0.7188, P-AUPRO:0.9732
+carpet: I-Auroc:0.9984, I-AP:0.9995, I-F1:0.9888, P-AUROC:0.9936, P-AP:0.7060, P-F1:0.7215, P-AUPRO:0.9771
+transistor: I-Auroc:0.9871, I-AP:0.9770, I-F1:0.9620, P-AUROC:0.9251, P-AP:0.5766, P-F1:0.5652, P-AUPRO:0.7474
+capsule: I-Auroc:0.9713, I-AP:0.9938, I-F1:0.9680, P-AUROC:0.9859, P-AP:0.6032, P-F1:0.6051, P-AUPRO:0.9702
+Mean: I-Auroc:0.9949, I-AP:0.9974, I-F1:0.9893, P-AUROC:0.9826, P-AP:0.6890, P-F1:0.6860, P-AUPRO:0.9440
+iter [5198/10000], loss:0.0507
+iter [5424/10000], loss:0.0504
+iter [5650/10000], loss:0.0501
+iter [5876/10000], loss:0.0497
+iter [6102/10000], loss:0.0495
+iter [6328/10000], loss:0.0492
+iter [6554/10000], loss:0.0489
+iter [6780/10000], loss:0.0487
+iter [7006/10000], loss:0.0485
+iter [7232/10000], loss:0.0483
+iter [7458/10000], loss:0.0480
+iter [7684/10000], loss:0.0479
+iter [7910/10000], loss:0.0477
+iter [8136/10000], loss:0.0475
+iter [8362/10000], loss:0.0474
+iter [8588/10000], loss:0.0473
+iter [8814/10000], loss:0.0472
+iter [9040/10000], loss:0.0470
+iter [9266/10000], loss:0.0470
+iter [9492/10000], loss:0.0469
+iter [9718/10000], loss:0.0468
+iter [9944/10000], loss:0.0468
+hazelnut: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9944, P-AP:0.8255, P-F1:0.7621, P-AUPRO:0.9694
+grid: I-Auroc:0.9975, I-AP:0.9991, I-F1:0.9912, P-AUROC:0.9935, P-AP:0.5378, P-F1:0.5650, P-AUPRO:0.9689
+leather: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9930, P-AP:0.5075, P-F1:0.5320, P-AUPRO:0.9700
+screw: I-Auroc:0.9842, I-AP:0.9949, I-F1:0.9569, P-AUROC:0.9964, P-AP:0.5946, P-F1:0.6012, P-AUPRO:0.9833
+wood: I-Auroc:0.9991, I-AP:0.9997, I-F1:0.9917, P-AUROC:0.9751, P-AP:0.7208, P-F1:0.6831, P-AUPRO:0.9354
+zipper: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9922, P-AP:0.7992, P-F1:0.7567, P-AUPRO:0.9713
+cable: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9819, P-AP:0.6633, P-F1:0.6877, P-AUPRO:0.9380
+bottle: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9913, P-AP:0.8774, P-F1:0.8405, P-AUPRO:0.9669
+toothbrush: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9888, P-AP:0.5132, P-F1:0.6263, P-AUPRO:0.9507
+metal_nut: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9686, P-AP:0.7949, P-F1:0.8657, P-AUPRO:0.9455
+tile: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9808, P-AP:0.7820, P-F1:0.7591, P-AUPRO:0.9012
+pill: I-Auroc:0.9921, I-AP:0.9986, I-F1:0.9825, P-AUROC:0.9784, P-AP:0.7593, P-F1:0.7134, P-AUPRO:0.9727
+carpet: I-Auroc:0.9984, I-AP:0.9995, I-F1:0.9888, P-AUROC:0.9933, P-AP:0.6930, P-F1:0.7152, P-AUPRO:0.9727
+transistor: I-Auroc:0.9908, I-AP:0.9835, I-F1:0.9630, P-AUROC:0.9324, P-AP:0.5935, P-F1:0.5800, P-AUPRO:0.7633
+capsule: I-Auroc:0.9809, I-AP:0.9958, I-F1:0.9725, P-AUROC:0.9871, P-AP:0.6064, P-F1:0.6059, P-AUPRO:0.9725
+Mean: I-Auroc:0.9962, I-AP:0.9981, I-F1:0.9898, P-AUROC:0.9831, P-AP:0.6846, P-F1:0.6863, P-AUPRO:0.9455
+iter [10000/10000], loss:0.0468
+✅ Saved results for carpet → ./results/dinomalyv2/results_2s.csv
+
+=== Running DinomalyV2 on mvtec/grid ===
+Running: python dinomaly_mvtec_uni.py --data_path ../mvtec_anomaly_detection --save_dir ./results/dinomalyv2/checkpoints --save_name grid_seed2_noise0.0
+/Work/Users/celachkar/DinomalyV2/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+/Work/Users/celachkar/DinomalyV2/dinov2/layers/attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+/Work/Users/celachkar/DinomalyV2/dinov2/layers/block.py:38: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+Folders found: ['hazelnut', 'grid', 'leather', 'screw', 'wood', 'zipper', 'cable', 'bottle', 'toothbrush', 'metal_nut', 'tile', 'pill', 'carpet', 'transistor', 'capsule']
+cuda:0
+train image number:3629
+iter [226/10000], loss:0.2048
+iter [452/10000], loss:0.0905
+iter [678/10000], loss:0.0739
+iter [904/10000], loss:0.0676
+iter [1130/10000], loss:0.0631
+iter [1356/10000], loss:0.0613
+iter [1582/10000], loss:0.0601
+iter [1808/10000], loss:0.0593
+iter [2034/10000], loss:0.0584
+iter [2260/10000], loss:0.0575
+iter [2486/10000], loss:0.0568
+iter [2712/10000], loss:0.0559
+iter [2938/10000], loss:0.0554
+iter [3164/10000], loss:0.0547
+iter [3390/10000], loss:0.0542
+iter [3616/10000], loss:0.0537
+iter [3842/10000], loss:0.0531
+iter [4068/10000], loss:0.0527
+iter [4294/10000], loss:0.0522
+iter [4520/10000], loss:0.0518
+iter [4746/10000], loss:0.0516
+iter [4972/10000], loss:0.0511
+hazelnut: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9944, P-AP:0.8214, P-F1:0.7675, P-AUPRO:0.9714
+grid: I-Auroc:0.9967, I-AP:0.9988, I-F1:0.9912, P-AUROC:0.9935, P-AP:0.5344, P-F1:0.5643, P-AUPRO:0.9701
+leather: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9933, P-AP:0.5364, P-F1:0.5420, P-AUPRO:0.9699
+screw: I-Auroc:0.9801, I-AP:0.9935, I-F1:0.9551, P-AUROC:0.9959, P-AP:0.5842, P-F1:0.5946, P-AUPRO:0.9817
+wood: I-Auroc:0.9991, I-AP:0.9997, I-F1:0.9917, P-AUROC:0.9753, P-AP:0.7350, P-F1:0.6891, P-AUPRO:0.9342
+zipper: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9919, P-AP:0.8043, P-F1:0.7553, P-AUPRO:0.9712
+cable: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9787, P-AP:0.6435, P-F1:0.6676, P-AUPRO:0.9331
+bottle: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9913, P-AP:0.8808, P-F1:0.8397, P-AUPRO:0.9661
+toothbrush: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9889, P-AP:0.5184, P-F1:0.6263, P-AUPRO:0.9502
+metal_nut: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9694, P-AP:0.8068, P-F1:0.8677, P-AUPRO:0.9470
+tile: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9823, P-AP:0.8059, P-F1:0.7644, P-AUPRO:0.8980
+pill: I-Auroc:0.9910, I-AP:0.9984, I-F1:0.9825, P-AUROC:0.9791, P-AP:0.7781, P-F1:0.7188, P-AUPRO:0.9732
+carpet: I-Auroc:0.9984, I-AP:0.9995, I-F1:0.9888, P-AUROC:0.9936, P-AP:0.7060, P-F1:0.7215, P-AUPRO:0.9771
+transistor: I-Auroc:0.9871, I-AP:0.9770, I-F1:0.9620, P-AUROC:0.9251, P-AP:0.5766, P-F1:0.5652, P-AUPRO:0.7474
+capsule: I-Auroc:0.9713, I-AP:0.9938, I-F1:0.9680, P-AUROC:0.9859, P-AP:0.6032, P-F1:0.6051, P-AUPRO:0.9702
+Mean: I-Auroc:0.9949, I-AP:0.9974, I-F1:0.9893, P-AUROC:0.9826, P-AP:0.6890, P-F1:0.6860, P-AUPRO:0.9440
+iter [5198/10000], loss:0.0507
+iter [5424/10000], loss:0.0504
+iter [5650/10000], loss:0.0501
+iter [5876/10000], loss:0.0497
+iter [6102/10000], loss:0.0495
+iter [6328/10000], loss:0.0492
+iter [6554/10000], loss:0.0489
+iter [6780/10000], loss:0.0487
+iter [7006/10000], loss:0.0485
+iter [7232/10000], loss:0.0483
+iter [7458/10000], loss:0.0480
+iter [7684/10000], loss:0.0479
+iter [7910/10000], loss:0.0477
+iter [8136/10000], loss:0.0475
+iter [8362/10000], loss:0.0474
+iter [8588/10000], loss:0.0473
+iter [8814/10000], loss:0.0472
+iter [9040/10000], loss:0.0470
+iter [9266/10000], loss:0.0470
+iter [9492/10000], loss:0.0469
+iter [9718/10000], loss:0.0468
+iter [9944/10000], loss:0.0468
+hazelnut: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9944, P-AP:0.8255, P-F1:0.7621, P-AUPRO:0.9694
+grid: I-Auroc:0.9975, I-AP:0.9991, I-F1:0.9912, P-AUROC:0.9935, P-AP:0.5378, P-F1:0.5650, P-AUPRO:0.9689
+leather: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9930, P-AP:0.5075, P-F1:0.5320, P-AUPRO:0.9700
+screw: I-Auroc:0.9842, I-AP:0.9949, I-F1:0.9569, P-AUROC:0.9964, P-AP:0.5946, P-F1:0.6012, P-AUPRO:0.9833
+wood: I-Auroc:0.9991, I-AP:0.9997, I-F1:0.9917, P-AUROC:0.9751, P-AP:0.7208, P-F1:0.6831, P-AUPRO:0.9354
+zipper: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9922, P-AP:0.7992, P-F1:0.7567, P-AUPRO:0.9713
+cable: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9819, P-AP:0.6633, P-F1:0.6877, P-AUPRO:0.9380
+bottle: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9913, P-AP:0.8774, P-F1:0.8405, P-AUPRO:0.9669
+toothbrush: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9888, P-AP:0.5132, P-F1:0.6263, P-AUPRO:0.9507
+metal_nut: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9686, P-AP:0.7949, P-F1:0.8657, P-AUPRO:0.9455
+tile: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9808, P-AP:0.7820, P-F1:0.7591, P-AUPRO:0.9012
+pill: I-Auroc:0.9921, I-AP:0.9986, I-F1:0.9825, P-AUROC:0.9784, P-AP:0.7593, P-F1:0.7134, P-AUPRO:0.9727
+carpet: I-Auroc:0.9984, I-AP:0.9995, I-F1:0.9888, P-AUROC:0.9933, P-AP:0.6930, P-F1:0.7152, P-AUPRO:0.9727
+transistor: I-Auroc:0.9908, I-AP:0.9835, I-F1:0.9630, P-AUROC:0.9324, P-AP:0.5935, P-F1:0.5800, P-AUPRO:0.7633
+capsule: I-Auroc:0.9809, I-AP:0.9958, I-F1:0.9725, P-AUROC:0.9871, P-AP:0.6064, P-F1:0.6059, P-AUPRO:0.9725
+Mean: I-Auroc:0.9962, I-AP:0.9981, I-F1:0.9898, P-AUROC:0.9831, P-AP:0.6846, P-F1:0.6863, P-AUPRO:0.9455
+iter [10000/10000], loss:0.0468
+✅ Saved results for grid → ./results/dinomalyv2/results_2s.csv
+
+=== Running DinomalyV2 on mvtec/hazelnut ===
+Running: python dinomaly_mvtec_uni.py --data_path ../mvtec_anomaly_detection --save_dir ./results/dinomalyv2/checkpoints --save_name hazelnut_seed2_noise0.0
+/Work/Users/celachkar/DinomalyV2/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+/Work/Users/celachkar/DinomalyV2/dinov2/layers/attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+/Work/Users/celachkar/DinomalyV2/dinov2/layers/block.py:38: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+Folders found: ['hazelnut', 'grid', 'leather', 'screw', 'wood', 'zipper', 'cable', 'bottle', 'toothbrush', 'metal_nut', 'tile', 'pill', 'carpet', 'transistor', 'capsule']
+cuda:0
+train image number:3629
+iter [226/10000], loss:0.2048
+iter [452/10000], loss:0.0905
+iter [678/10000], loss:0.0739
+iter [904/10000], loss:0.0676
+iter [1130/10000], loss:0.0631
+iter [1356/10000], loss:0.0613
+iter [1582/10000], loss:0.0601
+iter [1808/10000], loss:0.0593
+iter [2034/10000], loss:0.0584
+iter [2260/10000], loss:0.0575
+iter [2486/10000], loss:0.0568
+iter [2712/10000], loss:0.0559
+iter [2938/10000], loss:0.0554
+iter [3164/10000], loss:0.0547
+iter [3390/10000], loss:0.0542
+iter [3616/10000], loss:0.0537
+iter [3842/10000], loss:0.0531
+iter [4068/10000], loss:0.0527
+iter [4294/10000], loss:0.0522
+iter [4520/10000], loss:0.0518
+iter [4746/10000], loss:0.0516
+iter [4972/10000], loss:0.0511
+hazelnut: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9944, P-AP:0.8214, P-F1:0.7675, P-AUPRO:0.9714
+grid: I-Auroc:0.9967, I-AP:0.9988, I-F1:0.9912, P-AUROC:0.9935, P-AP:0.5344, P-F1:0.5643, P-AUPRO:0.9701
+leather: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9933, P-AP:0.5364, P-F1:0.5420, P-AUPRO:0.9699
+screw: I-Auroc:0.9801, I-AP:0.9935, I-F1:0.9551, P-AUROC:0.9959, P-AP:0.5842, P-F1:0.5946, P-AUPRO:0.9817
+wood: I-Auroc:0.9991, I-AP:0.9997, I-F1:0.9917, P-AUROC:0.9753, P-AP:0.7350, P-F1:0.6891, P-AUPRO:0.9342
+zipper: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9919, P-AP:0.8043, P-F1:0.7553, P-AUPRO:0.9712
+cable: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9787, P-AP:0.6435, P-F1:0.6676, P-AUPRO:0.9331
+bottle: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9913, P-AP:0.8808, P-F1:0.8397, P-AUPRO:0.9661
+toothbrush: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9889, P-AP:0.5184, P-F1:0.6263, P-AUPRO:0.9502
+metal_nut: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9694, P-AP:0.8068, P-F1:0.8677, P-AUPRO:0.9470
+tile: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9823, P-AP:0.8059, P-F1:0.7644, P-AUPRO:0.8980
+pill: I-Auroc:0.9910, I-AP:0.9984, I-F1:0.9825, P-AUROC:0.9791, P-AP:0.7781, P-F1:0.7188, P-AUPRO:0.9732
+carpet: I-Auroc:0.9984, I-AP:0.9995, I-F1:0.9888, P-AUROC:0.9936, P-AP:0.7060, P-F1:0.7215, P-AUPRO:0.9771
+transistor: I-Auroc:0.9871, I-AP:0.9770, I-F1:0.9620, P-AUROC:0.9251, P-AP:0.5766, P-F1:0.5652, P-AUPRO:0.7474
+capsule: I-Auroc:0.9713, I-AP:0.9938, I-F1:0.9680, P-AUROC:0.9859, P-AP:0.6032, P-F1:0.6051, P-AUPRO:0.9702
+Mean: I-Auroc:0.9949, I-AP:0.9974, I-F1:0.9893, P-AUROC:0.9826, P-AP:0.6890, P-F1:0.6860, P-AUPRO:0.9440
+iter [5198/10000], loss:0.0507
+iter [5424/10000], loss:0.0504
+iter [5650/10000], loss:0.0501
+iter [5876/10000], loss:0.0497
+iter [6102/10000], loss:0.0495
+iter [6328/10000], loss:0.0492
+iter [6554/10000], loss:0.0489
+iter [6780/10000], loss:0.0487
+iter [7006/10000], loss:0.0485
+iter [7232/10000], loss:0.0483
+iter [7458/10000], loss:0.0480
+iter [7684/10000], loss:0.0479
+iter [7910/10000], loss:0.0477
+iter [8136/10000], loss:0.0475
+iter [8362/10000], loss:0.0474
+iter [8588/10000], loss:0.0473
+iter [8814/10000], loss:0.0472
+iter [9040/10000], loss:0.0470
+iter [9266/10000], loss:0.0470
+iter [9492/10000], loss:0.0469
+iter [9718/10000], loss:0.0468
+iter [9944/10000], loss:0.0468
+hazelnut: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9944, P-AP:0.8255, P-F1:0.7621, P-AUPRO:0.9694
+grid: I-Auroc:0.9975, I-AP:0.9991, I-F1:0.9912, P-AUROC:0.9935, P-AP:0.5378, P-F1:0.5650, P-AUPRO:0.9689
+leather: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9930, P-AP:0.5075, P-F1:0.5320, P-AUPRO:0.9700
+screw: I-Auroc:0.9842, I-AP:0.9949, I-F1:0.9569, P-AUROC:0.9964, P-AP:0.5946, P-F1:0.6012, P-AUPRO:0.9833
+wood: I-Auroc:0.9991, I-AP:0.9997, I-F1:0.9917, P-AUROC:0.9751, P-AP:0.7208, P-F1:0.6831, P-AUPRO:0.9354
+zipper: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9922, P-AP:0.7992, P-F1:0.7567, P-AUPRO:0.9713
+cable: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9819, P-AP:0.6633, P-F1:0.6877, P-AUPRO:0.9380
+bottle: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9913, P-AP:0.8774, P-F1:0.8405, P-AUPRO:0.9669
+toothbrush: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9888, P-AP:0.5132, P-F1:0.6263, P-AUPRO:0.9507
+metal_nut: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9686, P-AP:0.7949, P-F1:0.8657, P-AUPRO:0.9455
+tile: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9808, P-AP:0.7820, P-F1:0.7591, P-AUPRO:0.9012
+pill: I-Auroc:0.9921, I-AP:0.9986, I-F1:0.9825, P-AUROC:0.9784, P-AP:0.7593, P-F1:0.7134, P-AUPRO:0.9727
+carpet: I-Auroc:0.9984, I-AP:0.9995, I-F1:0.9888, P-AUROC:0.9933, P-AP:0.6930, P-F1:0.7152, P-AUPRO:0.9727
+transistor: I-Auroc:0.9908, I-AP:0.9835, I-F1:0.9630, P-AUROC:0.9324, P-AP:0.5935, P-F1:0.5800, P-AUPRO:0.7633
+capsule: I-Auroc:0.9809, I-AP:0.9958, I-F1:0.9725, P-AUROC:0.9871, P-AP:0.6064, P-F1:0.6059, P-AUPRO:0.9725
+Mean: I-Auroc:0.9962, I-AP:0.9981, I-F1:0.9898, P-AUROC:0.9831, P-AP:0.6846, P-F1:0.6863, P-AUPRO:0.9455
+iter [10000/10000], loss:0.0468
+✅ Saved results for hazelnut → ./results/dinomalyv2/results_2s.csv
+
+=== Running DinomalyV2 on mvtec/leather ===
+Running: python dinomaly_mvtec_uni.py --data_path ../mvtec_anomaly_detection --save_dir ./results/dinomalyv2/checkpoints --save_name leather_seed2_noise0.0
+/Work/Users/celachkar/DinomalyV2/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+/Work/Users/celachkar/DinomalyV2/dinov2/layers/attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+/Work/Users/celachkar/DinomalyV2/dinov2/layers/block.py:38: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+Folders found: ['hazelnut', 'grid', 'leather', 'screw', 'wood', 'zipper', 'cable', 'bottle', 'toothbrush', 'metal_nut', 'tile', 'pill', 'carpet', 'transistor', 'capsule']
+cuda:0
+train image number:3629
+iter [226/10000], loss:0.2048
+iter [452/10000], loss:0.0905
+iter [678/10000], loss:0.0739
+iter [904/10000], loss:0.0676
+iter [1130/10000], loss:0.0631
+iter [1356/10000], loss:0.0613
+iter [1582/10000], loss:0.0601
+iter [1808/10000], loss:0.0593
+iter [2034/10000], loss:0.0584
+iter [2260/10000], loss:0.0575
+iter [2486/10000], loss:0.0568
+iter [2712/10000], loss:0.0559
+iter [2938/10000], loss:0.0554
+iter [3164/10000], loss:0.0547
+iter [3390/10000], loss:0.0542
+iter [3616/10000], loss:0.0537
+iter [3842/10000], loss:0.0531
+iter [4068/10000], loss:0.0527
+iter [4294/10000], loss:0.0522
+iter [4520/10000], loss:0.0518
+iter [4746/10000], loss:0.0516
+iter [4972/10000], loss:0.0511
+hazelnut: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9944, P-AP:0.8214, P-F1:0.7675, P-AUPRO:0.9714
+grid: I-Auroc:0.9967, I-AP:0.9988, I-F1:0.9912, P-AUROC:0.9935, P-AP:0.5344, P-F1:0.5643, P-AUPRO:0.9701
+leather: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9933, P-AP:0.5364, P-F1:0.5420, P-AUPRO:0.9699
+screw: I-Auroc:0.9801, I-AP:0.9935, I-F1:0.9551, P-AUROC:0.9959, P-AP:0.5842, P-F1:0.5946, P-AUPRO:0.9817
+wood: I-Auroc:0.9991, I-AP:0.9997, I-F1:0.9917, P-AUROC:0.9753, P-AP:0.7350, P-F1:0.6891, P-AUPRO:0.9342
+zipper: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9919, P-AP:0.8043, P-F1:0.7553, P-AUPRO:0.9712
+cable: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9787, P-AP:0.6435, P-F1:0.6676, P-AUPRO:0.9331
+bottle: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9913, P-AP:0.8808, P-F1:0.8397, P-AUPRO:0.9661
+toothbrush: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9889, P-AP:0.5184, P-F1:0.6263, P-AUPRO:0.9502
+metal_nut: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9694, P-AP:0.8068, P-F1:0.8677, P-AUPRO:0.9470
+tile: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9823, P-AP:0.8059, P-F1:0.7644, P-AUPRO:0.8980
+pill: I-Auroc:0.9910, I-AP:0.9984, I-F1:0.9825, P-AUROC:0.9791, P-AP:0.7781, P-F1:0.7188, P-AUPRO:0.9732
+carpet: I-Auroc:0.9984, I-AP:0.9995, I-F1:0.9888, P-AUROC:0.9936, P-AP:0.7060, P-F1:0.7215, P-AUPRO:0.9771
+transistor: I-Auroc:0.9871, I-AP:0.9770, I-F1:0.9620, P-AUROC:0.9251, P-AP:0.5766, P-F1:0.5652, P-AUPRO:0.7474
+capsule: I-Auroc:0.9713, I-AP:0.9938, I-F1:0.9680, P-AUROC:0.9859, P-AP:0.6032, P-F1:0.6051, P-AUPRO:0.9702
+Mean: I-Auroc:0.9949, I-AP:0.9974, I-F1:0.9893, P-AUROC:0.9826, P-AP:0.6890, P-F1:0.6860, P-AUPRO:0.9440
+iter [5198/10000], loss:0.0507
+iter [5424/10000], loss:0.0504
+iter [5650/10000], loss:0.0501
+iter [5876/10000], loss:0.0497
+iter [6102/10000], loss:0.0495
+iter [6328/10000], loss:0.0492
+iter [6554/10000], loss:0.0489
+iter [6780/10000], loss:0.0487
+iter [7006/10000], loss:0.0485
+iter [7232/10000], loss:0.0483
+iter [7458/10000], loss:0.0480
+iter [7684/10000], loss:0.0479
+iter [7910/10000], loss:0.0477
+iter [8136/10000], loss:0.0475
+iter [8362/10000], loss:0.0474
+iter [8588/10000], loss:0.0473
+iter [8814/10000], loss:0.0472
+iter [9040/10000], loss:0.0470
+iter [9266/10000], loss:0.0470
+iter [9492/10000], loss:0.0469
+iter [9718/10000], loss:0.0468
+iter [9944/10000], loss:0.0468
+hazelnut: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9944, P-AP:0.8255, P-F1:0.7621, P-AUPRO:0.9694
+grid: I-Auroc:0.9975, I-AP:0.9991, I-F1:0.9912, P-AUROC:0.9935, P-AP:0.5378, P-F1:0.5650, P-AUPRO:0.9689
+leather: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9930, P-AP:0.5075, P-F1:0.5320, P-AUPRO:0.9700
+screw: I-Auroc:0.9842, I-AP:0.9949, I-F1:0.9569, P-AUROC:0.9964, P-AP:0.5946, P-F1:0.6012, P-AUPRO:0.9833
+wood: I-Auroc:0.9991, I-AP:0.9997, I-F1:0.9917, P-AUROC:0.9751, P-AP:0.7208, P-F1:0.6831, P-AUPRO:0.9354
+zipper: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9922, P-AP:0.7992, P-F1:0.7567, P-AUPRO:0.9713
+cable: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9819, P-AP:0.6633, P-F1:0.6877, P-AUPRO:0.9380
+bottle: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9913, P-AP:0.8774, P-F1:0.8405, P-AUPRO:0.9669
+toothbrush: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9888, P-AP:0.5132, P-F1:0.6263, P-AUPRO:0.9507
+metal_nut: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9686, P-AP:0.7949, P-F1:0.8657, P-AUPRO:0.9455
+tile: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9808, P-AP:0.7820, P-F1:0.7591, P-AUPRO:0.9012
+pill: I-Auroc:0.9921, I-AP:0.9986, I-F1:0.9825, P-AUROC:0.9784, P-AP:0.7593, P-F1:0.7134, P-AUPRO:0.9727
+carpet: I-Auroc:0.9984, I-AP:0.9995, I-F1:0.9888, P-AUROC:0.9933, P-AP:0.6930, P-F1:0.7152, P-AUPRO:0.9727
+transistor: I-Auroc:0.9908, I-AP:0.9835, I-F1:0.9630, P-AUROC:0.9324, P-AP:0.5935, P-F1:0.5800, P-AUPRO:0.7633
+capsule: I-Auroc:0.9809, I-AP:0.9958, I-F1:0.9725, P-AUROC:0.9871, P-AP:0.6064, P-F1:0.6059, P-AUPRO:0.9725
+Mean: I-Auroc:0.9962, I-AP:0.9981, I-F1:0.9898, P-AUROC:0.9831, P-AP:0.6846, P-F1:0.6863, P-AUPRO:0.9455
+iter [10000/10000], loss:0.0468
+✅ Saved results for leather → ./results/dinomalyv2/results_2s.csv
+
+=== Running DinomalyV2 on mvtec/metal_nut ===
+Running: python dinomaly_mvtec_uni.py --data_path ../mvtec_anomaly_detection --save_dir ./results/dinomalyv2/checkpoints --save_name metal_nut_seed2_noise0.0
+/Work/Users/celachkar/DinomalyV2/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+/Work/Users/celachkar/DinomalyV2/dinov2/layers/attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+/Work/Users/celachkar/DinomalyV2/dinov2/layers/block.py:38: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+Folders found: ['hazelnut', 'grid', 'leather', 'screw', 'wood', 'zipper', 'cable', 'bottle', 'toothbrush', 'metal_nut', 'tile', 'pill', 'carpet', 'transistor', 'capsule']
+cuda:0
+train image number:3629
+iter [226/10000], loss:0.2048
+iter [452/10000], loss:0.0905
+iter [678/10000], loss:0.0739
+iter [904/10000], loss:0.0676
+iter [1130/10000], loss:0.0631
+iter [1356/10000], loss:0.0613
+iter [1582/10000], loss:0.0601
+iter [1808/10000], loss:0.0593
+iter [2034/10000], loss:0.0584
+iter [2260/10000], loss:0.0575
+iter [2486/10000], loss:0.0568
+iter [2712/10000], loss:0.0559
+iter [2938/10000], loss:0.0554
+iter [3164/10000], loss:0.0547
+iter [3390/10000], loss:0.0542
+iter [3616/10000], loss:0.0537
+iter [3842/10000], loss:0.0531
+iter [4068/10000], loss:0.0527
+iter [4294/10000], loss:0.0522
+iter [4520/10000], loss:0.0518
+iter [4746/10000], loss:0.0516
+iter [4972/10000], loss:0.0511
+hazelnut: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9944, P-AP:0.8214, P-F1:0.7675, P-AUPRO:0.9714
+grid: I-Auroc:0.9967, I-AP:0.9988, I-F1:0.9912, P-AUROC:0.9935, P-AP:0.5344, P-F1:0.5643, P-AUPRO:0.9701
+leather: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9933, P-AP:0.5364, P-F1:0.5420, P-AUPRO:0.9699
+screw: I-Auroc:0.9801, I-AP:0.9935, I-F1:0.9551, P-AUROC:0.9959, P-AP:0.5842, P-F1:0.5946, P-AUPRO:0.9817
+wood: I-Auroc:0.9991, I-AP:0.9997, I-F1:0.9917, P-AUROC:0.9753, P-AP:0.7350, P-F1:0.6891, P-AUPRO:0.9342
+zipper: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9919, P-AP:0.8043, P-F1:0.7553, P-AUPRO:0.9712
+cable: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9787, P-AP:0.6435, P-F1:0.6676, P-AUPRO:0.9331
+bottle: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9913, P-AP:0.8808, P-F1:0.8397, P-AUPRO:0.9661
+toothbrush: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9889, P-AP:0.5184, P-F1:0.6263, P-AUPRO:0.9502
+metal_nut: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9694, P-AP:0.8068, P-F1:0.8677, P-AUPRO:0.9470
+tile: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9823, P-AP:0.8059, P-F1:0.7644, P-AUPRO:0.8980
+pill: I-Auroc:0.9910, I-AP:0.9984, I-F1:0.9825, P-AUROC:0.9791, P-AP:0.7781, P-F1:0.7188, P-AUPRO:0.9732
+carpet: I-Auroc:0.9984, I-AP:0.9995, I-F1:0.9888, P-AUROC:0.9936, P-AP:0.7060, P-F1:0.7215, P-AUPRO:0.9771
+transistor: I-Auroc:0.9871, I-AP:0.9770, I-F1:0.9620, P-AUROC:0.9251, P-AP:0.5766, P-F1:0.5652, P-AUPRO:0.7474
+capsule: I-Auroc:0.9713, I-AP:0.9938, I-F1:0.9680, P-AUROC:0.9859, P-AP:0.6032, P-F1:0.6051, P-AUPRO:0.9702
+Mean: I-Auroc:0.9949, I-AP:0.9974, I-F1:0.9893, P-AUROC:0.9826, P-AP:0.6890, P-F1:0.6860, P-AUPRO:0.9440
+iter [5198/10000], loss:0.0507
+iter [5424/10000], loss:0.0504
+iter [5650/10000], loss:0.0501
+iter [5876/10000], loss:0.0497
+iter [6102/10000], loss:0.0495
+iter [6328/10000], loss:0.0492
+iter [6554/10000], loss:0.0489
+iter [6780/10000], loss:0.0487
+iter [7006/10000], loss:0.0485
+iter [7232/10000], loss:0.0483
+iter [7458/10000], loss:0.0480
+iter [7684/10000], loss:0.0479
+iter [7910/10000], loss:0.0477
+iter [8136/10000], loss:0.0475
+iter [8362/10000], loss:0.0474
+iter [8588/10000], loss:0.0473
+iter [8814/10000], loss:0.0472
+iter [9040/10000], loss:0.0470
+iter [9266/10000], loss:0.0470
+iter [9492/10000], loss:0.0469
+iter [9718/10000], loss:0.0468
+iter [9944/10000], loss:0.0468
+hazelnut: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9944, P-AP:0.8255, P-F1:0.7621, P-AUPRO:0.9694
+grid: I-Auroc:0.9975, I-AP:0.9991, I-F1:0.9912, P-AUROC:0.9935, P-AP:0.5378, P-F1:0.5650, P-AUPRO:0.9689
+leather: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9930, P-AP:0.5075, P-F1:0.5320, P-AUPRO:0.9700
+screw: I-Auroc:0.9842, I-AP:0.9949, I-F1:0.9569, P-AUROC:0.9964, P-AP:0.5946, P-F1:0.6012, P-AUPRO:0.9833
+wood: I-Auroc:0.9991, I-AP:0.9997, I-F1:0.9917, P-AUROC:0.9751, P-AP:0.7208, P-F1:0.6831, P-AUPRO:0.9354
+zipper: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9922, P-AP:0.7992, P-F1:0.7567, P-AUPRO:0.9713
+cable: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9819, P-AP:0.6633, P-F1:0.6877, P-AUPRO:0.9380
+bottle: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9913, P-AP:0.8774, P-F1:0.8405, P-AUPRO:0.9669
+toothbrush: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9888, P-AP:0.5132, P-F1:0.6263, P-AUPRO:0.9507
+metal_nut: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9686, P-AP:0.7949, P-F1:0.8657, P-AUPRO:0.9455
+tile: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9808, P-AP:0.7820, P-F1:0.7591, P-AUPRO:0.9012
+pill: I-Auroc:0.9921, I-AP:0.9986, I-F1:0.9825, P-AUROC:0.9784, P-AP:0.7593, P-F1:0.7134, P-AUPRO:0.9727
+carpet: I-Auroc:0.9984, I-AP:0.9995, I-F1:0.9888, P-AUROC:0.9933, P-AP:0.6930, P-F1:0.7152, P-AUPRO:0.9727
+transistor: I-Auroc:0.9908, I-AP:0.9835, I-F1:0.9630, P-AUROC:0.9324, P-AP:0.5935, P-F1:0.5800, P-AUPRO:0.7633
+capsule: I-Auroc:0.9809, I-AP:0.9958, I-F1:0.9725, P-AUROC:0.9871, P-AP:0.6064, P-F1:0.6059, P-AUPRO:0.9725
+Mean: I-Auroc:0.9962, I-AP:0.9981, I-F1:0.9898, P-AUROC:0.9831, P-AP:0.6846, P-F1:0.6863, P-AUPRO:0.9455
+iter [10000/10000], loss:0.0468
+✅ Saved results for metal_nut → ./results/dinomalyv2/results_2s.csv
+
+=== Running DinomalyV2 on mvtec/pill ===
+Running: python dinomaly_mvtec_uni.py --data_path ../mvtec_anomaly_detection --save_dir ./results/dinomalyv2/checkpoints --save_name pill_seed2_noise0.0
+/Work/Users/celachkar/DinomalyV2/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+/Work/Users/celachkar/DinomalyV2/dinov2/layers/attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+/Work/Users/celachkar/DinomalyV2/dinov2/layers/block.py:38: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+Folders found: ['hazelnut', 'grid', 'leather', 'screw', 'wood', 'zipper', 'cable', 'bottle', 'toothbrush', 'metal_nut', 'tile', 'pill', 'carpet', 'transistor', 'capsule']
+cuda:0
+train image number:3629
+iter [226/10000], loss:0.2048
+iter [452/10000], loss:0.0905
+iter [678/10000], loss:0.0739
+iter [904/10000], loss:0.0676
+iter [1130/10000], loss:0.0631
+iter [1356/10000], loss:0.0613
+iter [1582/10000], loss:0.0601
+iter [1808/10000], loss:0.0593
+iter [2034/10000], loss:0.0584
+iter [2260/10000], loss:0.0575
+iter [2486/10000], loss:0.0568
+iter [2712/10000], loss:0.0559
+iter [2938/10000], loss:0.0554
+iter [3164/10000], loss:0.0547
+iter [3390/10000], loss:0.0542
+iter [3616/10000], loss:0.0537
+iter [3842/10000], loss:0.0531
+iter [4068/10000], loss:0.0527
+iter [4294/10000], loss:0.0522
+iter [4520/10000], loss:0.0518
+iter [4746/10000], loss:0.0516
+iter [4972/10000], loss:0.0511
+hazelnut: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9944, P-AP:0.8214, P-F1:0.7675, P-AUPRO:0.9714
+grid: I-Auroc:0.9967, I-AP:0.9988, I-F1:0.9912, P-AUROC:0.9935, P-AP:0.5344, P-F1:0.5643, P-AUPRO:0.9701
+leather: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9933, P-AP:0.5364, P-F1:0.5420, P-AUPRO:0.9699
+screw: I-Auroc:0.9801, I-AP:0.9935, I-F1:0.9551, P-AUROC:0.9959, P-AP:0.5842, P-F1:0.5946, P-AUPRO:0.9817
+wood: I-Auroc:0.9991, I-AP:0.9997, I-F1:0.9917, P-AUROC:0.9753, P-AP:0.7350, P-F1:0.6891, P-AUPRO:0.9342
+zipper: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9919, P-AP:0.8043, P-F1:0.7553, P-AUPRO:0.9712
+cable: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9787, P-AP:0.6435, P-F1:0.6676, P-AUPRO:0.9331
+bottle: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9913, P-AP:0.8808, P-F1:0.8397, P-AUPRO:0.9661
+toothbrush: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9889, P-AP:0.5184, P-F1:0.6263, P-AUPRO:0.9502
+metal_nut: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9694, P-AP:0.8068, P-F1:0.8677, P-AUPRO:0.9470
+tile: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9823, P-AP:0.8059, P-F1:0.7644, P-AUPRO:0.8980
+pill: I-Auroc:0.9910, I-AP:0.9984, I-F1:0.9825, P-AUROC:0.9791, P-AP:0.7781, P-F1:0.7188, P-AUPRO:0.9732
+carpet: I-Auroc:0.9984, I-AP:0.9995, I-F1:0.9888, P-AUROC:0.9936, P-AP:0.7060, P-F1:0.7215, P-AUPRO:0.9771
+transistor: I-Auroc:0.9871, I-AP:0.9770, I-F1:0.9620, P-AUROC:0.9251, P-AP:0.5766, P-F1:0.5652, P-AUPRO:0.7474
+capsule: I-Auroc:0.9713, I-AP:0.9938, I-F1:0.9680, P-AUROC:0.9859, P-AP:0.6032, P-F1:0.6051, P-AUPRO:0.9702
+Mean: I-Auroc:0.9949, I-AP:0.9974, I-F1:0.9893, P-AUROC:0.9826, P-AP:0.6890, P-F1:0.6860, P-AUPRO:0.9440
+iter [5198/10000], loss:0.0507
+iter [5424/10000], loss:0.0504
+iter [5650/10000], loss:0.0501
+iter [5876/10000], loss:0.0497
+iter [6102/10000], loss:0.0495
+iter [6328/10000], loss:0.0492
+iter [6554/10000], loss:0.0489
+iter [6780/10000], loss:0.0487
+iter [7006/10000], loss:0.0485
+iter [7232/10000], loss:0.0483
+iter [7458/10000], loss:0.0480
+iter [7684/10000], loss:0.0479
+iter [7910/10000], loss:0.0477
+iter [8136/10000], loss:0.0475
+iter [8362/10000], loss:0.0474
+iter [8588/10000], loss:0.0473
+iter [8814/10000], loss:0.0472
+iter [9040/10000], loss:0.0470
+iter [9266/10000], loss:0.0470
+iter [9492/10000], loss:0.0469
+iter [9718/10000], loss:0.0468
+iter [9944/10000], loss:0.0468
+hazelnut: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9944, P-AP:0.8255, P-F1:0.7621, P-AUPRO:0.9694
+grid: I-Auroc:0.9975, I-AP:0.9991, I-F1:0.9912, P-AUROC:0.9935, P-AP:0.5378, P-F1:0.5650, P-AUPRO:0.9689
+leather: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9930, P-AP:0.5075, P-F1:0.5320, P-AUPRO:0.9700
+screw: I-Auroc:0.9842, I-AP:0.9949, I-F1:0.9569, P-AUROC:0.9964, P-AP:0.5946, P-F1:0.6012, P-AUPRO:0.9833
+wood: I-Auroc:0.9991, I-AP:0.9997, I-F1:0.9917, P-AUROC:0.9751, P-AP:0.7208, P-F1:0.6831, P-AUPRO:0.9354
+zipper: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9922, P-AP:0.7992, P-F1:0.7567, P-AUPRO:0.9713
+cable: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9819, P-AP:0.6633, P-F1:0.6877, P-AUPRO:0.9380
+bottle: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9913, P-AP:0.8774, P-F1:0.8405, P-AUPRO:0.9669
+toothbrush: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9888, P-AP:0.5132, P-F1:0.6263, P-AUPRO:0.9507
+metal_nut: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9686, P-AP:0.7949, P-F1:0.8657, P-AUPRO:0.9455
+tile: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9808, P-AP:0.7820, P-F1:0.7591, P-AUPRO:0.9012
+pill: I-Auroc:0.9921, I-AP:0.9986, I-F1:0.9825, P-AUROC:0.9784, P-AP:0.7593, P-F1:0.7134, P-AUPRO:0.9727
+carpet: I-Auroc:0.9984, I-AP:0.9995, I-F1:0.9888, P-AUROC:0.9933, P-AP:0.6930, P-F1:0.7152, P-AUPRO:0.9727
+transistor: I-Auroc:0.9908, I-AP:0.9835, I-F1:0.9630, P-AUROC:0.9324, P-AP:0.5935, P-F1:0.5800, P-AUPRO:0.7633
+capsule: I-Auroc:0.9809, I-AP:0.9958, I-F1:0.9725, P-AUROC:0.9871, P-AP:0.6064, P-F1:0.6059, P-AUPRO:0.9725
+Mean: I-Auroc:0.9962, I-AP:0.9981, I-F1:0.9898, P-AUROC:0.9831, P-AP:0.6846, P-F1:0.6863, P-AUPRO:0.9455
+iter [10000/10000], loss:0.0468
+✅ Saved results for pill → ./results/dinomalyv2/results_2s.csv
+
+=== Running DinomalyV2 on mvtec/screw ===
+Running: python dinomaly_mvtec_uni.py --data_path ../mvtec_anomaly_detection --save_dir ./results/dinomalyv2/checkpoints --save_name screw_seed2_noise0.0
+/Work/Users/celachkar/DinomalyV2/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+/Work/Users/celachkar/DinomalyV2/dinov2/layers/attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+/Work/Users/celachkar/DinomalyV2/dinov2/layers/block.py:38: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+Folders found: ['hazelnut', 'grid', 'leather', 'screw', 'wood', 'zipper', 'cable', 'bottle', 'toothbrush', 'metal_nut', 'tile', 'pill', 'carpet', 'transistor', 'capsule']
+cuda:0
+train image number:3629
+iter [226/10000], loss:0.2048
+iter [452/10000], loss:0.0905
+iter [678/10000], loss:0.0739
+iter [904/10000], loss:0.0676
+iter [1130/10000], loss:0.0631
+iter [1356/10000], loss:0.0613
+iter [1582/10000], loss:0.0601
+iter [1808/10000], loss:0.0593
+iter [2034/10000], loss:0.0584
+iter [2260/10000], loss:0.0575
+iter [2486/10000], loss:0.0568
+iter [2712/10000], loss:0.0559
+iter [2938/10000], loss:0.0554
+iter [3164/10000], loss:0.0547
+iter [3390/10000], loss:0.0542
+iter [3616/10000], loss:0.0537
+iter [3842/10000], loss:0.0531
+iter [4068/10000], loss:0.0527
+iter [4294/10000], loss:0.0522
+iter [4520/10000], loss:0.0518
+iter [4746/10000], loss:0.0516
+iter [4972/10000], loss:0.0511
+hazelnut: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9944, P-AP:0.8214, P-F1:0.7675, P-AUPRO:0.9714
+grid: I-Auroc:0.9967, I-AP:0.9988, I-F1:0.9912, P-AUROC:0.9935, P-AP:0.5344, P-F1:0.5643, P-AUPRO:0.9701
+leather: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9933, P-AP:0.5364, P-F1:0.5420, P-AUPRO:0.9699
+screw: I-Auroc:0.9801, I-AP:0.9935, I-F1:0.9551, P-AUROC:0.9959, P-AP:0.5842, P-F1:0.5946, P-AUPRO:0.9817
+wood: I-Auroc:0.9991, I-AP:0.9997, I-F1:0.9917, P-AUROC:0.9753, P-AP:0.7350, P-F1:0.6891, P-AUPRO:0.9342
+zipper: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9919, P-AP:0.8043, P-F1:0.7553, P-AUPRO:0.9712
+cable: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9787, P-AP:0.6435, P-F1:0.6676, P-AUPRO:0.9331
+bottle: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9913, P-AP:0.8808, P-F1:0.8397, P-AUPRO:0.9661
+toothbrush: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9889, P-AP:0.5184, P-F1:0.6263, P-AUPRO:0.9502
+metal_nut: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9694, P-AP:0.8068, P-F1:0.8677, P-AUPRO:0.9470
+tile: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9823, P-AP:0.8059, P-F1:0.7644, P-AUPRO:0.8980
+pill: I-Auroc:0.9910, I-AP:0.9984, I-F1:0.9825, P-AUROC:0.9791, P-AP:0.7781, P-F1:0.7188, P-AUPRO:0.9732
+carpet: I-Auroc:0.9984, I-AP:0.9995, I-F1:0.9888, P-AUROC:0.9936, P-AP:0.7060, P-F1:0.7215, P-AUPRO:0.9771
+transistor: I-Auroc:0.9871, I-AP:0.9770, I-F1:0.9620, P-AUROC:0.9251, P-AP:0.5766, P-F1:0.5652, P-AUPRO:0.7474
+capsule: I-Auroc:0.9713, I-AP:0.9938, I-F1:0.9680, P-AUROC:0.9859, P-AP:0.6032, P-F1:0.6051, P-AUPRO:0.9702
+Mean: I-Auroc:0.9949, I-AP:0.9974, I-F1:0.9893, P-AUROC:0.9826, P-AP:0.6890, P-F1:0.6860, P-AUPRO:0.9440
+iter [5198/10000], loss:0.0507
+iter [5424/10000], loss:0.0504
+iter [5650/10000], loss:0.0501
+iter [5876/10000], loss:0.0497
+iter [6102/10000], loss:0.0495
+iter [6328/10000], loss:0.0492
+iter [6554/10000], loss:0.0489
+iter [6780/10000], loss:0.0487
+iter [7006/10000], loss:0.0485
+iter [7232/10000], loss:0.0483
+iter [7458/10000], loss:0.0480
+iter [7684/10000], loss:0.0479
+iter [7910/10000], loss:0.0477
+iter [8136/10000], loss:0.0475
+iter [8362/10000], loss:0.0474
+iter [8588/10000], loss:0.0473
+iter [8814/10000], loss:0.0472
+iter [9040/10000], loss:0.0470
+iter [9266/10000], loss:0.0470
+iter [9492/10000], loss:0.0469
+iter [9718/10000], loss:0.0468
+iter [9944/10000], loss:0.0468
+hazelnut: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9944, P-AP:0.8255, P-F1:0.7621, P-AUPRO:0.9694
+grid: I-Auroc:0.9975, I-AP:0.9991, I-F1:0.9912, P-AUROC:0.9935, P-AP:0.5378, P-F1:0.5650, P-AUPRO:0.9689
+leather: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9930, P-AP:0.5075, P-F1:0.5320, P-AUPRO:0.9700
+screw: I-Auroc:0.9842, I-AP:0.9949, I-F1:0.9569, P-AUROC:0.9964, P-AP:0.5946, P-F1:0.6012, P-AUPRO:0.9833
+wood: I-Auroc:0.9991, I-AP:0.9997, I-F1:0.9917, P-AUROC:0.9751, P-AP:0.7208, P-F1:0.6831, P-AUPRO:0.9354
+zipper: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9922, P-AP:0.7992, P-F1:0.7567, P-AUPRO:0.9713
+cable: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9819, P-AP:0.6633, P-F1:0.6877, P-AUPRO:0.9380
+bottle: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9913, P-AP:0.8774, P-F1:0.8405, P-AUPRO:0.9669
+toothbrush: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9888, P-AP:0.5132, P-F1:0.6263, P-AUPRO:0.9507
+metal_nut: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9686, P-AP:0.7949, P-F1:0.8657, P-AUPRO:0.9455
+tile: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9808, P-AP:0.7820, P-F1:0.7591, P-AUPRO:0.9012
+pill: I-Auroc:0.9921, I-AP:0.9986, I-F1:0.9825, P-AUROC:0.9784, P-AP:0.7593, P-F1:0.7134, P-AUPRO:0.9727
+carpet: I-Auroc:0.9984, I-AP:0.9995, I-F1:0.9888, P-AUROC:0.9933, P-AP:0.6930, P-F1:0.7152, P-AUPRO:0.9727
+transistor: I-Auroc:0.9908, I-AP:0.9835, I-F1:0.9630, P-AUROC:0.9324, P-AP:0.5935, P-F1:0.5800, P-AUPRO:0.7633
+capsule: I-Auroc:0.9809, I-AP:0.9958, I-F1:0.9725, P-AUROC:0.9871, P-AP:0.6064, P-F1:0.6059, P-AUPRO:0.9725
+Mean: I-Auroc:0.9962, I-AP:0.9981, I-F1:0.9898, P-AUROC:0.9831, P-AP:0.6846, P-F1:0.6863, P-AUPRO:0.9455
+iter [10000/10000], loss:0.0468
+✅ Saved results for screw → ./results/dinomalyv2/results_2s.csv
+
+=== Running DinomalyV2 on mvtec/tile ===
+Running: python dinomaly_mvtec_uni.py --data_path ../mvtec_anomaly_detection --save_dir ./results/dinomalyv2/checkpoints --save_name tile_seed2_noise0.0
+/Work/Users/celachkar/DinomalyV2/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+/Work/Users/celachkar/DinomalyV2/dinov2/layers/attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+/Work/Users/celachkar/DinomalyV2/dinov2/layers/block.py:38: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+Folders found: ['hazelnut', 'grid', 'leather', 'screw', 'wood', 'zipper', 'cable', 'bottle', 'toothbrush', 'metal_nut', 'tile', 'pill', 'carpet', 'transistor', 'capsule']
+cuda:0
+train image number:3629
+iter [226/10000], loss:0.2048
+iter [452/10000], loss:0.0905
+iter [678/10000], loss:0.0739
+iter [904/10000], loss:0.0676
+iter [1130/10000], loss:0.0631
+iter [1356/10000], loss:0.0613
+iter [1582/10000], loss:0.0601
+iter [1808/10000], loss:0.0593
+iter [2034/10000], loss:0.0584
+iter [2260/10000], loss:0.0575
+iter [2486/10000], loss:0.0568
+iter [2712/10000], loss:0.0559
+iter [2938/10000], loss:0.0554
+iter [3164/10000], loss:0.0547
+iter [3390/10000], loss:0.0542
+iter [3616/10000], loss:0.0537
+iter [3842/10000], loss:0.0531
+iter [4068/10000], loss:0.0527
+iter [4294/10000], loss:0.0522
+iter [4520/10000], loss:0.0518
+iter [4746/10000], loss:0.0516
+iter [4972/10000], loss:0.0511
+hazelnut: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9944, P-AP:0.8214, P-F1:0.7675, P-AUPRO:0.9714
+grid: I-Auroc:0.9967, I-AP:0.9988, I-F1:0.9912, P-AUROC:0.9935, P-AP:0.5344, P-F1:0.5643, P-AUPRO:0.9701
+leather: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9933, P-AP:0.5364, P-F1:0.5420, P-AUPRO:0.9699
+screw: I-Auroc:0.9801, I-AP:0.9935, I-F1:0.9551, P-AUROC:0.9959, P-AP:0.5842, P-F1:0.5946, P-AUPRO:0.9817
+wood: I-Auroc:0.9991, I-AP:0.9997, I-F1:0.9917, P-AUROC:0.9753, P-AP:0.7350, P-F1:0.6891, P-AUPRO:0.9342
+zipper: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9919, P-AP:0.8043, P-F1:0.7553, P-AUPRO:0.9712
+cable: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9787, P-AP:0.6435, P-F1:0.6676, P-AUPRO:0.9331
+bottle: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9913, P-AP:0.8808, P-F1:0.8397, P-AUPRO:0.9661
+toothbrush: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9889, P-AP:0.5184, P-F1:0.6263, P-AUPRO:0.9502
+metal_nut: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9694, P-AP:0.8068, P-F1:0.8677, P-AUPRO:0.9470
+tile: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9823, P-AP:0.8059, P-F1:0.7644, P-AUPRO:0.8980
+pill: I-Auroc:0.9910, I-AP:0.9984, I-F1:0.9825, P-AUROC:0.9791, P-AP:0.7781, P-F1:0.7188, P-AUPRO:0.9732
+carpet: I-Auroc:0.9984, I-AP:0.9995, I-F1:0.9888, P-AUROC:0.9936, P-AP:0.7060, P-F1:0.7215, P-AUPRO:0.9771
+transistor: I-Auroc:0.9871, I-AP:0.9770, I-F1:0.9620, P-AUROC:0.9251, P-AP:0.5766, P-F1:0.5652, P-AUPRO:0.7474
+capsule: I-Auroc:0.9713, I-AP:0.9938, I-F1:0.9680, P-AUROC:0.9859, P-AP:0.6032, P-F1:0.6051, P-AUPRO:0.9702
+Mean: I-Auroc:0.9949, I-AP:0.9974, I-F1:0.9893, P-AUROC:0.9826, P-AP:0.6890, P-F1:0.6860, P-AUPRO:0.9440
+iter [5198/10000], loss:0.0507
+iter [5424/10000], loss:0.0504
+iter [5650/10000], loss:0.0501
+iter [5876/10000], loss:0.0497
+iter [6102/10000], loss:0.0495
+iter [6328/10000], loss:0.0492
+iter [6554/10000], loss:0.0489
+iter [6780/10000], loss:0.0487
+iter [7006/10000], loss:0.0485
+iter [7232/10000], loss:0.0483
+iter [7458/10000], loss:0.0480
+iter [7684/10000], loss:0.0479
+iter [7910/10000], loss:0.0477
+iter [8136/10000], loss:0.0475
+iter [8362/10000], loss:0.0474
+iter [8588/10000], loss:0.0473
+iter [8814/10000], loss:0.0472
+iter [9040/10000], loss:0.0470
+iter [9266/10000], loss:0.0470
+iter [9492/10000], loss:0.0469
+iter [9718/10000], loss:0.0468
+iter [9944/10000], loss:0.0468
+hazelnut: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9944, P-AP:0.8255, P-F1:0.7621, P-AUPRO:0.9694
+grid: I-Auroc:0.9975, I-AP:0.9991, I-F1:0.9912, P-AUROC:0.9935, P-AP:0.5378, P-F1:0.5650, P-AUPRO:0.9689
+leather: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9930, P-AP:0.5075, P-F1:0.5320, P-AUPRO:0.9700
+screw: I-Auroc:0.9842, I-AP:0.9949, I-F1:0.9569, P-AUROC:0.9964, P-AP:0.5946, P-F1:0.6012, P-AUPRO:0.9833
+wood: I-Auroc:0.9991, I-AP:0.9997, I-F1:0.9917, P-AUROC:0.9751, P-AP:0.7208, P-F1:0.6831, P-AUPRO:0.9354
+zipper: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9922, P-AP:0.7992, P-F1:0.7567, P-AUPRO:0.9713
+cable: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9819, P-AP:0.6633, P-F1:0.6877, P-AUPRO:0.9380
+bottle: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9913, P-AP:0.8774, P-F1:0.8405, P-AUPRO:0.9669
+toothbrush: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9888, P-AP:0.5132, P-F1:0.6263, P-AUPRO:0.9507
+metal_nut: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9686, P-AP:0.7949, P-F1:0.8657, P-AUPRO:0.9455
+tile: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9808, P-AP:0.7820, P-F1:0.7591, P-AUPRO:0.9012
+pill: I-Auroc:0.9921, I-AP:0.9986, I-F1:0.9825, P-AUROC:0.9784, P-AP:0.7593, P-F1:0.7134, P-AUPRO:0.9727
+carpet: I-Auroc:0.9984, I-AP:0.9995, I-F1:0.9888, P-AUROC:0.9933, P-AP:0.6930, P-F1:0.7152, P-AUPRO:0.9727
+transistor: I-Auroc:0.9908, I-AP:0.9835, I-F1:0.9630, P-AUROC:0.9324, P-AP:0.5935, P-F1:0.5800, P-AUPRO:0.7633
+capsule: I-Auroc:0.9809, I-AP:0.9958, I-F1:0.9725, P-AUROC:0.9871, P-AP:0.6064, P-F1:0.6059, P-AUPRO:0.9725
+Mean: I-Auroc:0.9962, I-AP:0.9981, I-F1:0.9898, P-AUROC:0.9831, P-AP:0.6846, P-F1:0.6863, P-AUPRO:0.9455
+iter [10000/10000], loss:0.0468
+✅ Saved results for tile → ./results/dinomalyv2/results_2s.csv
+
+=== Running DinomalyV2 on mvtec/toothbrush ===
+Running: python dinomaly_mvtec_uni.py --data_path ../mvtec_anomaly_detection --save_dir ./results/dinomalyv2/checkpoints --save_name toothbrush_seed2_noise0.0
+/Work/Users/celachkar/DinomalyV2/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+/Work/Users/celachkar/DinomalyV2/dinov2/layers/attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+/Work/Users/celachkar/DinomalyV2/dinov2/layers/block.py:38: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+Folders found: ['hazelnut', 'grid', 'leather', 'screw', 'wood', 'zipper', 'cable', 'bottle', 'toothbrush', 'metal_nut', 'tile', 'pill', 'carpet', 'transistor', 'capsule']
+cuda:0
+train image number:3629
+iter [226/10000], loss:0.2048
+iter [452/10000], loss:0.0905
+iter [678/10000], loss:0.0739
+iter [904/10000], loss:0.0676
+iter [1130/10000], loss:0.0631
+iter [1356/10000], loss:0.0613
+iter [1582/10000], loss:0.0601
+iter [1808/10000], loss:0.0593
+iter [2034/10000], loss:0.0584
+iter [2260/10000], loss:0.0575
+iter [2486/10000], loss:0.0568
+iter [2712/10000], loss:0.0559
+iter [2938/10000], loss:0.0554
+iter [3164/10000], loss:0.0547
+iter [3390/10000], loss:0.0542
+iter [3616/10000], loss:0.0537
+iter [3842/10000], loss:0.0531
+iter [4068/10000], loss:0.0527
+iter [4294/10000], loss:0.0522
+iter [4520/10000], loss:0.0518
+iter [4746/10000], loss:0.0516
+iter [4972/10000], loss:0.0511
+hazelnut: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9944, P-AP:0.8214, P-F1:0.7675, P-AUPRO:0.9714
+grid: I-Auroc:0.9967, I-AP:0.9988, I-F1:0.9912, P-AUROC:0.9935, P-AP:0.5344, P-F1:0.5643, P-AUPRO:0.9701
+leather: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9933, P-AP:0.5364, P-F1:0.5420, P-AUPRO:0.9699
+screw: I-Auroc:0.9801, I-AP:0.9935, I-F1:0.9551, P-AUROC:0.9959, P-AP:0.5842, P-F1:0.5946, P-AUPRO:0.9817
+wood: I-Auroc:0.9991, I-AP:0.9997, I-F1:0.9917, P-AUROC:0.9753, P-AP:0.7350, P-F1:0.6891, P-AUPRO:0.9342
+zipper: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9919, P-AP:0.8043, P-F1:0.7553, P-AUPRO:0.9712
+cable: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9787, P-AP:0.6435, P-F1:0.6676, P-AUPRO:0.9331
+bottle: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9913, P-AP:0.8808, P-F1:0.8397, P-AUPRO:0.9661
+toothbrush: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9889, P-AP:0.5184, P-F1:0.6263, P-AUPRO:0.9502
+metal_nut: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9694, P-AP:0.8068, P-F1:0.8677, P-AUPRO:0.9470
+tile: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9823, P-AP:0.8059, P-F1:0.7644, P-AUPRO:0.8980
+pill: I-Auroc:0.9910, I-AP:0.9984, I-F1:0.9825, P-AUROC:0.9791, P-AP:0.7781, P-F1:0.7188, P-AUPRO:0.9732
+carpet: I-Auroc:0.9984, I-AP:0.9995, I-F1:0.9888, P-AUROC:0.9936, P-AP:0.7060, P-F1:0.7215, P-AUPRO:0.9771
+transistor: I-Auroc:0.9871, I-AP:0.9770, I-F1:0.9620, P-AUROC:0.9251, P-AP:0.5766, P-F1:0.5652, P-AUPRO:0.7474
+capsule: I-Auroc:0.9713, I-AP:0.9938, I-F1:0.9680, P-AUROC:0.9859, P-AP:0.6032, P-F1:0.6051, P-AUPRO:0.9702
+Mean: I-Auroc:0.9949, I-AP:0.9974, I-F1:0.9893, P-AUROC:0.9826, P-AP:0.6890, P-F1:0.6860, P-AUPRO:0.9440
+iter [5198/10000], loss:0.0507
+iter [5424/10000], loss:0.0504
+iter [5650/10000], loss:0.0501
+iter [5876/10000], loss:0.0497
+iter [6102/10000], loss:0.0495
+iter [6328/10000], loss:0.0492
+iter [6554/10000], loss:0.0489
+iter [6780/10000], loss:0.0487
+iter [7006/10000], loss:0.0485
+iter [7232/10000], loss:0.0483
+iter [7458/10000], loss:0.0480
+iter [7684/10000], loss:0.0479
+iter [7910/10000], loss:0.0477
+iter [8136/10000], loss:0.0475
+iter [8362/10000], loss:0.0474
+iter [8588/10000], loss:0.0473
+iter [8814/10000], loss:0.0472
+iter [9040/10000], loss:0.0470
+iter [9266/10000], loss:0.0470
+iter [9492/10000], loss:0.0469
+iter [9718/10000], loss:0.0468
+iter [9944/10000], loss:0.0468
+hazelnut: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9944, P-AP:0.8255, P-F1:0.7621, P-AUPRO:0.9694
+grid: I-Auroc:0.9975, I-AP:0.9991, I-F1:0.9912, P-AUROC:0.9935, P-AP:0.5378, P-F1:0.5650, P-AUPRO:0.9689
+leather: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9930, P-AP:0.5075, P-F1:0.5320, P-AUPRO:0.9700
+screw: I-Auroc:0.9842, I-AP:0.9949, I-F1:0.9569, P-AUROC:0.9964, P-AP:0.5946, P-F1:0.6012, P-AUPRO:0.9833
+wood: I-Auroc:0.9991, I-AP:0.9997, I-F1:0.9917, P-AUROC:0.9751, P-AP:0.7208, P-F1:0.6831, P-AUPRO:0.9354
+zipper: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9922, P-AP:0.7992, P-F1:0.7567, P-AUPRO:0.9713
+cable: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9819, P-AP:0.6633, P-F1:0.6877, P-AUPRO:0.9380
+bottle: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9913, P-AP:0.8774, P-F1:0.8405, P-AUPRO:0.9669
+toothbrush: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9888, P-AP:0.5132, P-F1:0.6263, P-AUPRO:0.9507
+metal_nut: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9686, P-AP:0.7949, P-F1:0.8657, P-AUPRO:0.9455
+tile: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9808, P-AP:0.7820, P-F1:0.7591, P-AUPRO:0.9012
+pill: I-Auroc:0.9921, I-AP:0.9986, I-F1:0.9825, P-AUROC:0.9784, P-AP:0.7593, P-F1:0.7134, P-AUPRO:0.9727
+carpet: I-Auroc:0.9984, I-AP:0.9995, I-F1:0.9888, P-AUROC:0.9933, P-AP:0.6930, P-F1:0.7152, P-AUPRO:0.9727
+transistor: I-Auroc:0.9908, I-AP:0.9835, I-F1:0.9630, P-AUROC:0.9324, P-AP:0.5935, P-F1:0.5800, P-AUPRO:0.7633
+capsule: I-Auroc:0.9809, I-AP:0.9958, I-F1:0.9725, P-AUROC:0.9871, P-AP:0.6064, P-F1:0.6059, P-AUPRO:0.9725
+Mean: I-Auroc:0.9962, I-AP:0.9981, I-F1:0.9898, P-AUROC:0.9831, P-AP:0.6846, P-F1:0.6863, P-AUPRO:0.9455
+iter [10000/10000], loss:0.0468
+✅ Saved results for toothbrush → ./results/dinomalyv2/results_2s.csv
+
+=== Running DinomalyV2 on mvtec/transistor ===
+Running: python dinomaly_mvtec_uni.py --data_path ../mvtec_anomaly_detection --save_dir ./results/dinomalyv2/checkpoints --save_name transistor_seed2_noise0.0
+/Work/Users/celachkar/DinomalyV2/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+/Work/Users/celachkar/DinomalyV2/dinov2/layers/attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+/Work/Users/celachkar/DinomalyV2/dinov2/layers/block.py:38: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+Folders found: ['hazelnut', 'grid', 'leather', 'screw', 'wood', 'zipper', 'cable', 'bottle', 'toothbrush', 'metal_nut', 'tile', 'pill', 'carpet', 'transistor', 'capsule']
+cuda:0
+train image number:3629
+iter [226/10000], loss:0.2048
+iter [452/10000], loss:0.0905
+iter [678/10000], loss:0.0739
+iter [904/10000], loss:0.0676
+iter [1130/10000], loss:0.0631
+iter [1356/10000], loss:0.0613
+iter [1582/10000], loss:0.0601
+iter [1808/10000], loss:0.0593
+iter [2034/10000], loss:0.0584
+iter [2260/10000], loss:0.0575
+iter [2486/10000], loss:0.0568
+iter [2712/10000], loss:0.0559
+iter [2938/10000], loss:0.0554
+iter [3164/10000], loss:0.0547
+iter [3390/10000], loss:0.0542
+iter [3616/10000], loss:0.0537
+iter [3842/10000], loss:0.0531
+iter [4068/10000], loss:0.0527
+iter [4294/10000], loss:0.0522
+iter [4520/10000], loss:0.0518
+iter [4746/10000], loss:0.0516
+iter [4972/10000], loss:0.0511
+hazelnut: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9944, P-AP:0.8214, P-F1:0.7675, P-AUPRO:0.9714
+grid: I-Auroc:0.9967, I-AP:0.9988, I-F1:0.9912, P-AUROC:0.9935, P-AP:0.5344, P-F1:0.5643, P-AUPRO:0.9701
+leather: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9933, P-AP:0.5364, P-F1:0.5420, P-AUPRO:0.9699
+screw: I-Auroc:0.9801, I-AP:0.9935, I-F1:0.9551, P-AUROC:0.9959, P-AP:0.5842, P-F1:0.5946, P-AUPRO:0.9817
+wood: I-Auroc:0.9991, I-AP:0.9997, I-F1:0.9917, P-AUROC:0.9753, P-AP:0.7350, P-F1:0.6891, P-AUPRO:0.9342
+zipper: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9919, P-AP:0.8043, P-F1:0.7553, P-AUPRO:0.9712
+cable: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9787, P-AP:0.6435, P-F1:0.6676, P-AUPRO:0.9331
+bottle: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9913, P-AP:0.8808, P-F1:0.8397, P-AUPRO:0.9661
+toothbrush: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9889, P-AP:0.5184, P-F1:0.6263, P-AUPRO:0.9502
+metal_nut: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9694, P-AP:0.8068, P-F1:0.8677, P-AUPRO:0.9470
+tile: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9823, P-AP:0.8059, P-F1:0.7644, P-AUPRO:0.8980
+pill: I-Auroc:0.9910, I-AP:0.9984, I-F1:0.9825, P-AUROC:0.9791, P-AP:0.7781, P-F1:0.7188, P-AUPRO:0.9732
+carpet: I-Auroc:0.9984, I-AP:0.9995, I-F1:0.9888, P-AUROC:0.9936, P-AP:0.7060, P-F1:0.7215, P-AUPRO:0.9771
+transistor: I-Auroc:0.9871, I-AP:0.9770, I-F1:0.9620, P-AUROC:0.9251, P-AP:0.5766, P-F1:0.5652, P-AUPRO:0.7474
+capsule: I-Auroc:0.9713, I-AP:0.9938, I-F1:0.9680, P-AUROC:0.9859, P-AP:0.6032, P-F1:0.6051, P-AUPRO:0.9702
+Mean: I-Auroc:0.9949, I-AP:0.9974, I-F1:0.9893, P-AUROC:0.9826, P-AP:0.6890, P-F1:0.6860, P-AUPRO:0.9440
+iter [5198/10000], loss:0.0507
+iter [5424/10000], loss:0.0504
+iter [5650/10000], loss:0.0501
+iter [5876/10000], loss:0.0497
+iter [6102/10000], loss:0.0495
+iter [6328/10000], loss:0.0492
+iter [6554/10000], loss:0.0489
+iter [6780/10000], loss:0.0487
+iter [7006/10000], loss:0.0485
+iter [7232/10000], loss:0.0483
+iter [7458/10000], loss:0.0480
+iter [7684/10000], loss:0.0479
+iter [7910/10000], loss:0.0477
+iter [8136/10000], loss:0.0475
+iter [8362/10000], loss:0.0474
+iter [8588/10000], loss:0.0473
+iter [8814/10000], loss:0.0472
+iter [9040/10000], loss:0.0470
+iter [9266/10000], loss:0.0470
+iter [9492/10000], loss:0.0469
+iter [9718/10000], loss:0.0468
+iter [9944/10000], loss:0.0468
+hazelnut: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9944, P-AP:0.8255, P-F1:0.7621, P-AUPRO:0.9694
+grid: I-Auroc:0.9975, I-AP:0.9991, I-F1:0.9912, P-AUROC:0.9935, P-AP:0.5378, P-F1:0.5650, P-AUPRO:0.9689
+leather: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9930, P-AP:0.5075, P-F1:0.5320, P-AUPRO:0.9700
+screw: I-Auroc:0.9842, I-AP:0.9949, I-F1:0.9569, P-AUROC:0.9964, P-AP:0.5946, P-F1:0.6012, P-AUPRO:0.9833
+wood: I-Auroc:0.9991, I-AP:0.9997, I-F1:0.9917, P-AUROC:0.9751, P-AP:0.7208, P-F1:0.6831, P-AUPRO:0.9354
+zipper: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9922, P-AP:0.7992, P-F1:0.7567, P-AUPRO:0.9713
+cable: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9819, P-AP:0.6633, P-F1:0.6877, P-AUPRO:0.9380
+bottle: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9913, P-AP:0.8774, P-F1:0.8405, P-AUPRO:0.9669
+toothbrush: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9888, P-AP:0.5132, P-F1:0.6263, P-AUPRO:0.9507
+metal_nut: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9686, P-AP:0.7949, P-F1:0.8657, P-AUPRO:0.9455
+tile: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9808, P-AP:0.7820, P-F1:0.7591, P-AUPRO:0.9012
+pill: I-Auroc:0.9921, I-AP:0.9986, I-F1:0.9825, P-AUROC:0.9784, P-AP:0.7593, P-F1:0.7134, P-AUPRO:0.9727
+carpet: I-Auroc:0.9984, I-AP:0.9995, I-F1:0.9888, P-AUROC:0.9933, P-AP:0.6930, P-F1:0.7152, P-AUPRO:0.9727
+transistor: I-Auroc:0.9908, I-AP:0.9835, I-F1:0.9630, P-AUROC:0.9324, P-AP:0.5935, P-F1:0.5800, P-AUPRO:0.7633
+capsule: I-Auroc:0.9809, I-AP:0.9958, I-F1:0.9725, P-AUROC:0.9871, P-AP:0.6064, P-F1:0.6059, P-AUPRO:0.9725
+Mean: I-Auroc:0.9962, I-AP:0.9981, I-F1:0.9898, P-AUROC:0.9831, P-AP:0.6846, P-F1:0.6863, P-AUPRO:0.9455
+iter [10000/10000], loss:0.0468
+✅ Saved results for transistor → ./results/dinomalyv2/results_2s.csv
+
+=== Running DinomalyV2 on mvtec/wood ===
+Running: python dinomaly_mvtec_uni.py --data_path ../mvtec_anomaly_detection --save_dir ./results/dinomalyv2/checkpoints --save_name wood_seed2_noise0.0
+/Work/Users/celachkar/DinomalyV2/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+/Work/Users/celachkar/DinomalyV2/dinov2/layers/attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+/Work/Users/celachkar/DinomalyV2/dinov2/layers/block.py:38: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+Folders found: ['hazelnut', 'grid', 'leather', 'screw', 'wood', 'zipper', 'cable', 'bottle', 'toothbrush', 'metal_nut', 'tile', 'pill', 'carpet', 'transistor', 'capsule']
+cuda:0
+train image number:3629
+iter [226/10000], loss:0.2048
+iter [452/10000], loss:0.0905
+iter [678/10000], loss:0.0739
+iter [904/10000], loss:0.0676
+iter [1130/10000], loss:0.0631
+iter [1356/10000], loss:0.0613
+iter [1582/10000], loss:0.0601
+iter [1808/10000], loss:0.0593
+iter [2034/10000], loss:0.0584
+iter [2260/10000], loss:0.0575
+iter [2486/10000], loss:0.0568
+iter [2712/10000], loss:0.0559
+iter [2938/10000], loss:0.0554
+iter [3164/10000], loss:0.0547
+iter [3390/10000], loss:0.0542
+iter [3616/10000], loss:0.0537
+iter [3842/10000], loss:0.0531
+iter [4068/10000], loss:0.0527
+iter [4294/10000], loss:0.0522
+iter [4520/10000], loss:0.0518
+iter [4746/10000], loss:0.0516
+iter [4972/10000], loss:0.0511
+hazelnut: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9944, P-AP:0.8214, P-F1:0.7675, P-AUPRO:0.9714
+grid: I-Auroc:0.9967, I-AP:0.9988, I-F1:0.9912, P-AUROC:0.9935, P-AP:0.5344, P-F1:0.5643, P-AUPRO:0.9701
+leather: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9933, P-AP:0.5364, P-F1:0.5420, P-AUPRO:0.9699
+screw: I-Auroc:0.9801, I-AP:0.9935, I-F1:0.9551, P-AUROC:0.9959, P-AP:0.5842, P-F1:0.5946, P-AUPRO:0.9817
+wood: I-Auroc:0.9991, I-AP:0.9997, I-F1:0.9917, P-AUROC:0.9753, P-AP:0.7350, P-F1:0.6891, P-AUPRO:0.9342
+zipper: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9919, P-AP:0.8043, P-F1:0.7553, P-AUPRO:0.9712
+cable: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9787, P-AP:0.6435, P-F1:0.6676, P-AUPRO:0.9331
+bottle: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9913, P-AP:0.8808, P-F1:0.8397, P-AUPRO:0.9661
+toothbrush: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9889, P-AP:0.5184, P-F1:0.6263, P-AUPRO:0.9502
+metal_nut: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9694, P-AP:0.8068, P-F1:0.8677, P-AUPRO:0.9470
+tile: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9823, P-AP:0.8059, P-F1:0.7644, P-AUPRO:0.8980
+pill: I-Auroc:0.9910, I-AP:0.9984, I-F1:0.9825, P-AUROC:0.9791, P-AP:0.7781, P-F1:0.7188, P-AUPRO:0.9732
+carpet: I-Auroc:0.9984, I-AP:0.9995, I-F1:0.9888, P-AUROC:0.9936, P-AP:0.7060, P-F1:0.7215, P-AUPRO:0.9771
+transistor: I-Auroc:0.9871, I-AP:0.9770, I-F1:0.9620, P-AUROC:0.9251, P-AP:0.5766, P-F1:0.5652, P-AUPRO:0.7474
+capsule: I-Auroc:0.9713, I-AP:0.9938, I-F1:0.9680, P-AUROC:0.9859, P-AP:0.6032, P-F1:0.6051, P-AUPRO:0.9702
+Mean: I-Auroc:0.9949, I-AP:0.9974, I-F1:0.9893, P-AUROC:0.9826, P-AP:0.6890, P-F1:0.6860, P-AUPRO:0.9440
+iter [5198/10000], loss:0.0507
+iter [5424/10000], loss:0.0504
+iter [5650/10000], loss:0.0501
+iter [5876/10000], loss:0.0497
+iter [6102/10000], loss:0.0495
+iter [6328/10000], loss:0.0492
+iter [6554/10000], loss:0.0489
+iter [6780/10000], loss:0.0487
+iter [7006/10000], loss:0.0485
+iter [7232/10000], loss:0.0483
+iter [7458/10000], loss:0.0480
+iter [7684/10000], loss:0.0479
+iter [7910/10000], loss:0.0477
+iter [8136/10000], loss:0.0475
+iter [8362/10000], loss:0.0474
+iter [8588/10000], loss:0.0473
+iter [8814/10000], loss:0.0472
+iter [9040/10000], loss:0.0470
+iter [9266/10000], loss:0.0470
+iter [9492/10000], loss:0.0469
+iter [9718/10000], loss:0.0468
+iter [9944/10000], loss:0.0468
+hazelnut: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9944, P-AP:0.8255, P-F1:0.7621, P-AUPRO:0.9694
+grid: I-Auroc:0.9975, I-AP:0.9991, I-F1:0.9912, P-AUROC:0.9935, P-AP:0.5378, P-F1:0.5650, P-AUPRO:0.9689
+leather: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9930, P-AP:0.5075, P-F1:0.5320, P-AUPRO:0.9700
+screw: I-Auroc:0.9842, I-AP:0.9949, I-F1:0.9569, P-AUROC:0.9964, P-AP:0.5946, P-F1:0.6012, P-AUPRO:0.9833
+wood: I-Auroc:0.9991, I-AP:0.9997, I-F1:0.9917, P-AUROC:0.9751, P-AP:0.7208, P-F1:0.6831, P-AUPRO:0.9354
+zipper: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9922, P-AP:0.7992, P-F1:0.7567, P-AUPRO:0.9713
+cable: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9819, P-AP:0.6633, P-F1:0.6877, P-AUPRO:0.9380
+bottle: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9913, P-AP:0.8774, P-F1:0.8405, P-AUPRO:0.9669
+toothbrush: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9888, P-AP:0.5132, P-F1:0.6263, P-AUPRO:0.9507
+metal_nut: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9686, P-AP:0.7949, P-F1:0.8657, P-AUPRO:0.9455
+tile: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9808, P-AP:0.7820, P-F1:0.7591, P-AUPRO:0.9012
+pill: I-Auroc:0.9921, I-AP:0.9986, I-F1:0.9825, P-AUROC:0.9784, P-AP:0.7593, P-F1:0.7134, P-AUPRO:0.9727
+carpet: I-Auroc:0.9984, I-AP:0.9995, I-F1:0.9888, P-AUROC:0.9933, P-AP:0.6930, P-F1:0.7152, P-AUPRO:0.9727
+transistor: I-Auroc:0.9908, I-AP:0.9835, I-F1:0.9630, P-AUROC:0.9324, P-AP:0.5935, P-F1:0.5800, P-AUPRO:0.7633
+capsule: I-Auroc:0.9809, I-AP:0.9958, I-F1:0.9725, P-AUROC:0.9871, P-AP:0.6064, P-F1:0.6059, P-AUPRO:0.9725
+Mean: I-Auroc:0.9962, I-AP:0.9981, I-F1:0.9898, P-AUROC:0.9831, P-AP:0.6846, P-F1:0.6863, P-AUPRO:0.9455
+iter [10000/10000], loss:0.0468
+✅ Saved results for wood → ./results/dinomalyv2/results_2s.csv
+
+=== Running DinomalyV2 on mvtec/zipper ===
+Running: python dinomaly_mvtec_uni.py --data_path ../mvtec_anomaly_detection --save_dir ./results/dinomalyv2/checkpoints --save_name zipper_seed2_noise0.0
+/Work/Users/celachkar/DinomalyV2/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+/Work/Users/celachkar/DinomalyV2/dinov2/layers/attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+/Work/Users/celachkar/DinomalyV2/dinov2/layers/block.py:38: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+Folders found: ['hazelnut', 'grid', 'leather', 'screw', 'wood', 'zipper', 'cable', 'bottle', 'toothbrush', 'metal_nut', 'tile', 'pill', 'carpet', 'transistor', 'capsule']
+cuda:0
+train image number:3629
+iter [226/10000], loss:0.2048
+iter [452/10000], loss:0.0905
+iter [678/10000], loss:0.0739
+iter [904/10000], loss:0.0676
+iter [1130/10000], loss:0.0631
+iter [1356/10000], loss:0.0613
+iter [1582/10000], loss:0.0601
+iter [1808/10000], loss:0.0593
+iter [2034/10000], loss:0.0584
+iter [2260/10000], loss:0.0575
+iter [2486/10000], loss:0.0568
+iter [2712/10000], loss:0.0559
+iter [2938/10000], loss:0.0554
+iter [3164/10000], loss:0.0547
+iter [3390/10000], loss:0.0542
+iter [3616/10000], loss:0.0537
+iter [3842/10000], loss:0.0531
+iter [4068/10000], loss:0.0527
+iter [4294/10000], loss:0.0522
+iter [4520/10000], loss:0.0518
+iter [4746/10000], loss:0.0516
+iter [4972/10000], loss:0.0511
+hazelnut: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9944, P-AP:0.8214, P-F1:0.7675, P-AUPRO:0.9714
+grid: I-Auroc:0.9967, I-AP:0.9988, I-F1:0.9912, P-AUROC:0.9935, P-AP:0.5344, P-F1:0.5643, P-AUPRO:0.9701
+leather: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9933, P-AP:0.5364, P-F1:0.5420, P-AUPRO:0.9699
+screw: I-Auroc:0.9801, I-AP:0.9935, I-F1:0.9551, P-AUROC:0.9959, P-AP:0.5842, P-F1:0.5946, P-AUPRO:0.9817
+wood: I-Auroc:0.9991, I-AP:0.9997, I-F1:0.9917, P-AUROC:0.9753, P-AP:0.7350, P-F1:0.6891, P-AUPRO:0.9342
+zipper: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9919, P-AP:0.8043, P-F1:0.7553, P-AUPRO:0.9712
+cable: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9787, P-AP:0.6435, P-F1:0.6676, P-AUPRO:0.9331
+bottle: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9913, P-AP:0.8808, P-F1:0.8397, P-AUPRO:0.9661
+toothbrush: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9889, P-AP:0.5184, P-F1:0.6263, P-AUPRO:0.9502
+metal_nut: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9694, P-AP:0.8068, P-F1:0.8677, P-AUPRO:0.9470
+tile: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9823, P-AP:0.8059, P-F1:0.7644, P-AUPRO:0.8980
+pill: I-Auroc:0.9910, I-AP:0.9984, I-F1:0.9825, P-AUROC:0.9791, P-AP:0.7781, P-F1:0.7188, P-AUPRO:0.9732
+carpet: I-Auroc:0.9984, I-AP:0.9995, I-F1:0.9888, P-AUROC:0.9936, P-AP:0.7060, P-F1:0.7215, P-AUPRO:0.9771
+transistor: I-Auroc:0.9871, I-AP:0.9770, I-F1:0.9620, P-AUROC:0.9251, P-AP:0.5766, P-F1:0.5652, P-AUPRO:0.7474
+capsule: I-Auroc:0.9713, I-AP:0.9938, I-F1:0.9680, P-AUROC:0.9859, P-AP:0.6032, P-F1:0.6051, P-AUPRO:0.9702
+Mean: I-Auroc:0.9949, I-AP:0.9974, I-F1:0.9893, P-AUROC:0.9826, P-AP:0.6890, P-F1:0.6860, P-AUPRO:0.9440
+iter [5198/10000], loss:0.0507
+iter [5424/10000], loss:0.0504
+iter [5650/10000], loss:0.0501
+iter [5876/10000], loss:0.0497
+iter [6102/10000], loss:0.0495
+iter [6328/10000], loss:0.0492
+iter [6554/10000], loss:0.0489
+iter [6780/10000], loss:0.0487
+iter [7006/10000], loss:0.0485
+iter [7232/10000], loss:0.0483
+iter [7458/10000], loss:0.0480
+iter [7684/10000], loss:0.0479
+iter [7910/10000], loss:0.0477
+iter [8136/10000], loss:0.0475
+iter [8362/10000], loss:0.0474
+iter [8588/10000], loss:0.0473
+iter [8814/10000], loss:0.0472
+iter [9040/10000], loss:0.0470
+iter [9266/10000], loss:0.0470
+iter [9492/10000], loss:0.0469
+iter [9718/10000], loss:0.0468
+iter [9944/10000], loss:0.0468
+hazelnut: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9944, P-AP:0.8255, P-F1:0.7621, P-AUPRO:0.9694
+grid: I-Auroc:0.9975, I-AP:0.9991, I-F1:0.9912, P-AUROC:0.9935, P-AP:0.5378, P-F1:0.5650, P-AUPRO:0.9689
+leather: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9930, P-AP:0.5075, P-F1:0.5320, P-AUPRO:0.9700
+screw: I-Auroc:0.9842, I-AP:0.9949, I-F1:0.9569, P-AUROC:0.9964, P-AP:0.5946, P-F1:0.6012, P-AUPRO:0.9833
+wood: I-Auroc:0.9991, I-AP:0.9997, I-F1:0.9917, P-AUROC:0.9751, P-AP:0.7208, P-F1:0.6831, P-AUPRO:0.9354
+zipper: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9922, P-AP:0.7992, P-F1:0.7567, P-AUPRO:0.9713
+cable: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9819, P-AP:0.6633, P-F1:0.6877, P-AUPRO:0.9380
+bottle: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9913, P-AP:0.8774, P-F1:0.8405, P-AUPRO:0.9669
+toothbrush: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9888, P-AP:0.5132, P-F1:0.6263, P-AUPRO:0.9507
+metal_nut: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9686, P-AP:0.7949, P-F1:0.8657, P-AUPRO:0.9455
+tile: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9808, P-AP:0.7820, P-F1:0.7591, P-AUPRO:0.9012
+pill: I-Auroc:0.9921, I-AP:0.9986, I-F1:0.9825, P-AUROC:0.9784, P-AP:0.7593, P-F1:0.7134, P-AUPRO:0.9727
+carpet: I-Auroc:0.9984, I-AP:0.9995, I-F1:0.9888, P-AUROC:0.9933, P-AP:0.6930, P-F1:0.7152, P-AUPRO:0.9727
+transistor: I-Auroc:0.9908, I-AP:0.9835, I-F1:0.9630, P-AUROC:0.9324, P-AP:0.5935, P-F1:0.5800, P-AUPRO:0.7633
+capsule: I-Auroc:0.9809, I-AP:0.9958, I-F1:0.9725, P-AUROC:0.9871, P-AP:0.6064, P-F1:0.6059, P-AUPRO:0.9725
+Mean: I-Auroc:0.9962, I-AP:0.9981, I-F1:0.9898, P-AUROC:0.9831, P-AP:0.6846, P-F1:0.6863, P-AUPRO:0.9455
+iter [10000/10000], loss:0.0468
+✅ Saved results for zipper → ./results/dinomalyv2/results_2s.csv

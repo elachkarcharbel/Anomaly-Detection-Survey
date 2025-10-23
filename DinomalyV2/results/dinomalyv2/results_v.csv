@@ -1,0 +1,13 @@
+method,dataset,category,seed,noise,run_id,Image-AUROC,Pixel-AUROC
+Dinomaly,visa,candle,1,0.0,20251023-180431,41.63,52.57
+Dinomaly,visa,capsules,1,0.0,20251023-180431,29.14,62.9
+Dinomaly,visa,cashew,1,0.0,20251023-180431,74.62,32.36
+Dinomaly,visa,chewinggum,1,0.0,20251023-180431,10.83,61.06
+Dinomaly,visa,fryum,1,0.0,20251023-180431,59.27,85.52
+Dinomaly,visa,macaroni1,1,0.0,20251023-180431,38.42,58.46
+Dinomaly,visa,macaroni2,1,0.0,20251023-180431,48.78,80.13
+Dinomaly,visa,pcb1,1,0.0,20251023-180431,51.42,70.73
+Dinomaly,visa,pcb2,1,0.0,20251023-180431,34.44,72.08
+Dinomaly,visa,pcb3,1,0.0,20251023-180431,47.34,78.38
+Dinomaly,visa,pcb4,1,0.0,20251023-180431,48.84,67.55
+Dinomaly,visa,pipe_fryum,1,0.0,20251023-180431,37.5,78.26

@@ -1,0 +1,16 @@
+method,dataset,category,seed,noise,run_id,Image-AUROC,Pixel-AUROC,PRO
+DinomalyV2,mvtec,bottle,2,0.0,20251020-110508,0.9962,0.9831,0.9455
+DinomalyV2,mvtec,cable,2,0.0,20251020-110508,0.9962,0.9831,0.9455
+DinomalyV2,mvtec,capsule,2,0.0,20251020-110508,0.9962,0.9831,0.9455
+DinomalyV2,mvtec,carpet,2,0.0,20251020-110508,0.9962,0.9831,0.9455
+DinomalyV2,mvtec,grid,2,0.0,20251020-110508,0.9962,0.9831,0.9455
+DinomalyV2,mvtec,hazelnut,2,0.0,20251020-110508,0.9962,0.9831,0.9455
+DinomalyV2,mvtec,leather,2,0.0,20251020-110508,0.9962,0.9831,0.9455
+DinomalyV2,mvtec,metal_nut,2,0.0,20251020-110508,0.9962,0.9831,0.9455
+DinomalyV2,mvtec,pill,2,0.0,20251020-110508,0.9962,0.9831,0.9455
+DinomalyV2,mvtec,screw,2,0.0,20251020-110508,0.9962,0.9831,0.9455
+DinomalyV2,mvtec,tile,2,0.0,20251020-110508,0.9962,0.9831,0.9455
+DinomalyV2,mvtec,toothbrush,2,0.0,20251020-110508,0.9962,0.9831,0.9455
+DinomalyV2,mvtec,transistor,2,0.0,20251020-110508,0.9962,0.9831,0.9455
+DinomalyV2,mvtec,wood,2,0.0,20251020-110508,0.9962,0.9831,0.9455
+DinomalyV2,mvtec,zipper,2,0.0,20251020-110508,0.9962,0.9831,0.9455
